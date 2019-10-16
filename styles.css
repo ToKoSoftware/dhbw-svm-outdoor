@@ -1,3 +1,5 @@
+/*  html und body:
+    Seitengrenzen und Schrift/Font-Family */
 html,
 body {
     padding: 0;
@@ -5,21 +7,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*  Anker (Hyperlink):
+    Entfernung von saemtlichen Standard-Dekorkationen (z.B. unterstrichen)
+    Standard-Farbe: schwarz */
 a {
     text-decoration: none;
     color: #000;
 }
 
+/*  Container (div-Blöcke):
+    Maximale Beite 1200 px, Abstand links, unten, rechts 15px */
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 15px 15px 15px;
 }
 
+/*  Container mit 100% Breite */
 .container.distance {
     margin-top: 100px;
 }
 
+/*  Header (Kopfzeile):
+    Basis-Settings */
 .header {
     border-bottom: 1px solid #bdc3c7;
     position: fixed;
@@ -29,14 +39,17 @@ a {
     background-color: #fff;
 }
 
+/*  Anordnung für das Logo */
 .header-logo {
     float: left;
 }
 
+/*  Definition der Logogröße */
 .header .header-logo img {
     max-width: 120px;
 }
 
+/*  Anordnung der Navigationsleiste */
 .header .header-navigation {
     float: left;
 }
@@ -53,29 +66,36 @@ a {
     transition: border 250ms;
 }
 
+/*  Unterstich unter aktuell aktiver Unterseite */
 .header .header-navigation li.active {
     border-bottom: 2px solid #FCC509;
 }
 
+/*  Unterstreichung beim Hovern */
 .header .header-navigation li:hover {
     border-bottom: 2px solid #FCC50985;
 }
 
+/*  Hero (Startbild der Unterseiten):
+    Breite 100%, Höhe mindestens 500px */
 .hero {
     float: left;
     width: 100%;
     min-height: 500px;
 }
 
+/* Hero farbig */
 .hero.hero--color {
     background: #FCC509;
 }
 
+/*  Hero als Bild  */
 .hero.hero--image {
     background-size: cover;
     background-position: top center;
 }
 
+/* Textinhalt Hero */
 .hero .hero-content {
     padding-top: 150px;
 }
@@ -84,11 +104,14 @@ a {
     color: #fff;
 }
 
+/*  Button (a-Tags mit Design)
+    Umrandung 10px, Übergang 250ms */
 .button {
     padding: 10px;
     transition: 250ms;
 }
 
+/*  Farbwechsel beim Hovern */
 .button:hover {
     background: #fff !important;
 }
@@ -98,25 +121,37 @@ a {
     background: #FCC509 !important;
 }
 
+/*  Gelber Button, gelber Rand */
 .button.button--solid {
     border: 2px solid #FCC509;
     background: #FCC509;
 }
 
+/*  Weißer Button, gelber Rand */
 .button.button--outline {
     border: 2px solid #FCC509;
 }
 
+/*  Weißer Button, schwarzer Rand */
 .button.button--black-outline {
     border: 2px solid #000;
 }
 
+/*  Schwarzer Button, weißer Text */
 .button.button--dark {
     border: 2px solid #000;
     background: #000;
     color: #fff;
 }
 
+/*  Content (Inhalt der Seite) */
+.content {
+    width: 100%;
+    float: left;
+}
+
+/*  Sidebar (Navigation innerhalb der Seite):
+    Höhe 100%, Breite 25% */
 .sidebar {
     border-right: 1px solid #bdc3c7;
     float: left;
@@ -125,16 +160,15 @@ a {
     height: 100%;
 }
 
+/*  Main (Text der Seite):
+    Breite 75% */
 .main {
     width: 75%;
     float: right;
 }
 
-.content {
-    width: 100%;
-    float: left;
-}
-
+/*  Footer (Fußzeile/-bereich):
+    Hintergrund schwarz, Breite 100%, Farbe weiß*/
 .footer {
     background: #000;
     width: 100%;
@@ -142,6 +176,7 @@ a {
     color: #fff;
 }
 
+/*  Anpassung der Liste im Footer */
 .footer ul {
     list-style: none;
     padding-top: 10px;

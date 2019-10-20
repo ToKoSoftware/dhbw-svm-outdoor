@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,8 +22,8 @@ a {
     padding: 0 15px 15px 15px;
 }
 
-.container.distance {
-    margin-top: 130px;
+.distance {
+    margin-top: 100px;
 }
 
 .header {
@@ -74,7 +73,11 @@ a {
 .hero {
     float: left;
     width: 100%;
-    min-height: 500px;
+    height: calc(100vh - 100px);
+}
+
+.hero .container {
+    height: 100%;
 }
 
 .hero.hero--color {
@@ -86,11 +89,36 @@ a {
     background-position: top center;
 }
 
-.hero .hero-content {
-    padding-top: 150px;
+.hero .hero-inner {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-content: end;
+    padding: 50px 0;
 }
 
-.hero.hero--light .hero-content {
+.hero .hero-inner .hero-card {
+    background: #000;
+    padding: 0 15px 15px 15px;
+    color: #fff;
+    align-self: end;
+}
+
+.hero .hero-inner .hero-card.hero-card--light {
+    color: #000;
+    background: #fff;
+}
+
+.hero .hero-inner h1 {
+    border-bottom: 5px solid #FCC509;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.hero.hero--light .hero-inner {
     color: #fff;
 }
 
@@ -106,8 +134,7 @@ a {
     background: #fff !important;
 }
 
-.button--dark:hover,
-.button--outline:hover {
+.button--dark:hover, .button--outline:hover {
     background: #FCC509 !important;
 }
 
@@ -168,7 +195,6 @@ a {
     text-align: right;
 }
 
-
 /* Haupt Textinhaltscontainer, Darstellung als CSS Grid */
 
 .main-content {
@@ -176,7 +202,6 @@ a {
     grid-gap: 30px;
     grid-template-columns: 25% auto auto;
 }
-
 
 /* Seitenmenü, bleibt am "Bildschirm kleben" */
 
@@ -220,6 +245,11 @@ a {
         grid-row: 2/2;
         grid-column: 1/3;
     }
+
+    .hero .hero-inner{
+        grid-template-columns: 1fr;
+    }
+
     .container.distance {
         margin-top: 0;
     }

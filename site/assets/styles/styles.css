@@ -310,7 +310,7 @@ a {
         margin-top: 0;
     }
     .main-content {
-        column-gap: none;
+        column-gap: normal;
     }
     .main-content .sticky {
         position: static;

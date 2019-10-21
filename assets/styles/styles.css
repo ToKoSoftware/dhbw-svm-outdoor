@@ -78,7 +78,7 @@ a {
 
 .hero.hero--small {
     height: calc(65vh - 100px);
-} 
+}
 
 .hero .container {
     height: 100%;
@@ -213,10 +213,27 @@ a {
     display: block;
     position: sticky;
     top: 164px;
+    background: #eeeeee;
+    padding: 10px 0;
+}
+
+.main-content .sidebar .description {
+    padding: 0 15px;
+}
+
+.main-content .sidebar ul {
+    padding: 0;
 }
 
 .main-content .sidebar li {
     list-style: none;
+    transition: 500ms;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.main-content .sidebar li:hover {
+    background: #FCC509;
 }
 
 .main-content .content {

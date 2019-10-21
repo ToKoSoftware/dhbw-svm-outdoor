@@ -76,6 +76,10 @@ a {
     height: calc(100vh - 100px);
 }
 
+.hero.hero--small {
+    height: calc(65vh - 100px);
+} 
+
 .hero .container {
     height: 100%;
 }

@@ -18,6 +18,7 @@ DHBW Semester 1 Group Assignment
 - `structure`     The doc files in converted to html
 - `site`          The site's content files
 - `combiner`      NodeJS Script combining the site's template files
+- `dist`          This folder contains the finalized website. These files shall be published later on / given to the teacher 
 
 ## Deployment
 

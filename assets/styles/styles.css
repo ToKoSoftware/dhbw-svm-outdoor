@@ -96,7 +96,7 @@ a {
     margin-bottom: 50px;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    align-content: end;
+    align-content: stretch;
     padding: 50px 0;
 }
 
@@ -225,6 +225,43 @@ a {
     padding-top: 25px;
 }
 
+.blocks {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.blocks.blocks--even {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.blocks .block-inner {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)5%, #000);
+    display: grid;
+    align-content: end;
+}
+
+.blocks .block-item {
+    color: white;
+    min-height: 300px;
+}
+
+.blocks .block-description {
+    transition: 500ms;
+    padding: 15px;
+}
+
+.blocks .block-description h1 {
+    margin-bottom: 10px;
+}
+
+.blocks .block-item:hover .block-description {
+    padding: 30px 15px;
+}
+
 @media only screen and (max-width: 600px) {
     .header {
         position: relative;
@@ -245,11 +282,9 @@ a {
         grid-row: 2/2;
         grid-column: 1/3;
     }
-
-    .hero .hero-inner{
+    .hero .hero-inner {
         grid-template-columns: 1fr;
     }
-
     .container.distance {
         margin-top: 0;
     }
@@ -268,6 +303,12 @@ a {
         grid-column: 1/3;
         padding: 0;
         border: none;
+    }
+    .blocks {
+        grid-template-columns: 1fr;
+    }
+    .blocks.blocks--even {
+        grid-template-columns: 1fr 1fr;
     }
     .footer .footer-row {
         grid-template-columns: 1fr 1fr;

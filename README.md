@@ -16,6 +16,8 @@ DHBW Semester 1 Group Assignment
 - `assets`        All stylesheets, images, ... shall be put here
 - `assignment`    The files provided by the university containing tasks, content, etc.
 - `structure`     The doc files in converted to html
+- `site`          The site's content files
+- `combiner`      NodeJS Script combining the site's template files
 
 ## Deployment
 

@@ -1,0 +1,25 @@
+{
+  "name": "home",
+  "file": "index.html",
+  "destination": "/",
+  "title": "Home",
+  "description": "Test",
+  "children": [
+    {
+      "name": "silvester",
+      "destination": "silvester",
+      "file": "index.html",
+      "title": "Silvesterlauf",
+      "description": "Test",
+      "children": []
+    },
+    {
+      "name": "silvester",
+      "destination": "silvester",
+      "file": "index.html",
+      "title": "Weihnachten",
+      "description": "Test",
+      "children": []
+    }
+  ]
+}

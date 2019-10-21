@@ -1,0 +1,15 @@
+{
+  "name": "home",
+  "file": "",
+  "destination": "",
+  "title": "Home",
+  "children": [
+    {
+      "name": "Subpage",
+      "file": "Subpage.html",
+      "title": "Subpage Title",
+      "children": []
+    }
+  ]
+}
+

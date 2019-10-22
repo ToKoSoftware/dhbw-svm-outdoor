@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc": "node_modules/.bin/tsc",
-    "combine": "rm -rf ./build/* && cp -R ../site/ ./build/site && npm run tsc && node build/app.js && rm -rf ./build/*",
+    "combine": "rm -rf ./build/* && rm -rf ../dist && cp -R ../site/ ./build/site && mkdir ../dist && cp -R ../site/assets ../dist/assets && npm run tsc && node build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -6,20 +6,21 @@
   "description": "Test",
   "children": [
     {
-      "name": "silvester",
+      "name": "silvesterlauf",
       "destination": "silvester",
       "file": "index.html",
       "title": "Silvesterlauf",
       "description": "Test",
-      "children": []
-    },
-    {
-      "name": "silvester",
-      "destination": "silvester",
-      "file": "index.html",
-      "title": "Weihnachten",
-      "description": "Test",
-      "children": []
+      "children": [
+        {
+          "name": "anmeldung-silvester",
+          "destination": "anmeldung",
+          "file": "index.html",
+          "title": "Anmeldung zum Silvesterlauf",
+          "description": "Test",
+          "children": []
+        }
+      ]
     }
   ]
 }

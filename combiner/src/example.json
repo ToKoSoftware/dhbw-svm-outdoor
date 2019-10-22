@@ -1,15 +1,26 @@
 {
   "name": "home",
-  "file": "",
-  "destination": "",
+  "file": "index.html",
+  "destination": "/",
   "title": "Home",
+  "description": "Home",
   "children": [
     {
-      "name": "Subpage",
-      "file": "Subpage.html",
-      "title": "Subpage Title",
-      "children": []
+      "name": "news",
+      "destination": "news",
+      "file": "index.html",
+      "title": "News",
+      "description": "News",
+      "children": [
+        {
+          "name": "news-1",
+          "destination": "news-1",
+          "file": "index.html",
+          "title": "News 1",
+          "description": "News 1",
+          "children": []
+        }
+      ]
     }
   ]
 }
-

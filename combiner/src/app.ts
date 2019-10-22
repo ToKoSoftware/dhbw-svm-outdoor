@@ -1,26 +1,26 @@
 import fs from "fs";
 import {Page} from "./models/page.model";
 
+// folder defaults
 let structDir = "./build/site/";
 let rootDir = "./build/site";
 let outputDir = "../dist";
 
+// get configuration file
 let data = fs.readFileSync(rootDir + '/pages.json', {encoding: "utf-8"});
 
+// parse as object
 let json = JSON.parse(data.toString());
 
+// attributes to be replaced
 let attributes = ["title", "description"];
 
-createHtmlFile(json);
+// start tree travel
+createHtmlFile(json, "");
 
-if (!fs.existsSync(outputDir)) {
-    console.log("Created Dist Folder");
-    fs.mkdirSync(outputDir);
-}
+function createHtmlFile(page: Page, parent: string) {
 
-function createHtmlFile(page: Page) {
-    console.log(page.name);
-    tree(page.children);
+    // replace {{content}} with the file's content
     let html = getTemplateFile().replace("{{content}}", getStructureFile(page.file));
 
     // todo
@@ -28,22 +28,30 @@ function createHtmlFile(page: Page) {
         //html = html.replace("{{" + item + "}}", page.item)
     });
 
-    let folder = outputDir + "/" + page.destination;
+    // create output folder if it does not exist
+    let folder = outputDir + "/" + parent + "/" + page.destination;
     if (!fs.existsSync(folder)) {
         fs.mkdirSync(folder);
     }
+    // create file
     fs.writeFile(folder + "/index.html", html, function (err) {
         if (err) {
             return console.log(err);
         }
-
-        console.log("Created " + outputDir + page.destination);
+        console.log("Created " + outputDir + "/" + page.destination);
     });
+
+
+    parent = parent + "/" + page.destination;
+
+    // travel deeper
+    tree(page.children, parent);
+
 }
 
-function tree(pages: Page[]) {
+function tree(pages: Page[], parent: string) {
     pages.forEach((page) => {
-        createHtmlFile(page)
+        createHtmlFile(page, parent)
     });
 }
 

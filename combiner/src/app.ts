@@ -8,6 +8,8 @@ let outputDir = "../dist";
 
 // get configuration file
 let data = fs.readFileSync(rootDir + '/pages.json', {encoding: "utf-8"});
+//get template file
+let templateFile = fs.readFileSync(rootDir + '/template/index.html', {encoding: "utf-8"});
 
 // parse as object
 let json = JSON.parse(data.toString());
@@ -21,7 +23,9 @@ createHtmlFile(json, "");
 function createHtmlFile(page: Page, parent: string) {
 
     // replace {{content}} with the file's content
-    let html = getTemplateFile().replace("{{content}}", getStructureFile(page.file));
+    let html = templateFile;
+    console.log("Getting file " + page.file);
+    html = html.replace("{{content}}", getStructureFile(page.file));
 
     // todo
     attributes.forEach((item) => {
@@ -53,10 +57,6 @@ function tree(pages: Page[], parent: string) {
     pages.forEach((page) => {
         createHtmlFile(page, parent)
     });
-}
-
-function getTemplateFile() {
-    return fs.readFileSync(rootDir + '/template/index.html', {encoding: "utf-8"});
 }
 
 function getStructureFile(fileName: string) {

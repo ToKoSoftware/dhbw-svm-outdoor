@@ -6,6 +6,23 @@
   "description": "Test",
   "children": [
     {
+      "name": "lauftreff",
+      "destination": "lauftreff",
+      "file": "lauftreff.html",
+      "title": "Unser Lauftreff",
+      "description": "Test",
+      "children": [
+        {
+          "name": "anmeldung-silvester",
+          "destination": "anmeldung",
+          "file": "index.html",
+          "title": "Anmeldung zum Silvesterlauf",
+          "description": "Test",
+          "children": []
+        }
+      ]
+    },
+    {
       "name": "silvesterlauf",
       "destination": "silvester",
       "file": "index.html",

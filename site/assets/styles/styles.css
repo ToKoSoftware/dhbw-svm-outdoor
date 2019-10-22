@@ -325,11 +325,9 @@ a {
         padding: 0;
         border: none;
     }
-    .blocks {
-        grid-template-columns: 1fr;
-    }
+    .blocks,
     .blocks.blocks--even {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .footer .footer-row {
         grid-template-columns: 1fr 1fr;

@@ -12,7 +12,7 @@ let data = fs.readFileSync(rootDir + '/pages.json', {encoding: "utf-8"});
 let templateFile = fs.readFileSync(rootDir + '/template/index.html', {encoding: "utf-8"});
 
 // parse as object
-let json = JSON.parse(data.toString());
+let json: Page = JSON.parse(data.toString());
 
 // attributes to be replaced
 let attributes = ["title", "description"];
@@ -25,12 +25,13 @@ function createHtmlFile(page: Page, parent: string) {
     // replace {{content}} with the file's content
     let html = templateFile;
     console.log("Getting file " + page.file);
-    html = html.replace("{{content}}", getStructureFile(page.file));
-
-    // todo
-    attributes.forEach((item) => {
-        //html = html.replace("{{" + item + "}}", page.item)
-    });
+    html = replaceAll(html, "{{content}}", getStructureFile(page.file));
+    html = replaceAll(html, "{{title}}", page.title);
+    html = replaceAll(html, "{{name}}", page.name);
+    html = replaceAll(html, "{{keyWords}}", page.keyWords);
+    html = replaceAll(html, "{{photoUrl}}", page.photoUrl);
+    html = replaceAll(html, "{{description}}", page.description);
+    html = replaceAll(html, "{{content}}", getStructureFile(page.file));
 
     // create output folder if it does not exist
     let folder = outputDir + "/" + parent + "/" + page.destination;
@@ -61,4 +62,8 @@ function tree(pages: Page[], parent: string) {
 
 function getStructureFile(fileName: string) {
     return fs.readFileSync(structDir + fileName, {encoding: "utf-8"});
+}
+
+function replaceAll(str: string, find: string, replace: string) {
+    return str.replace(new RegExp(find, 'g'), replace);
 }

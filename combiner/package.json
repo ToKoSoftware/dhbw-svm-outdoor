@@ -1,0 +1,19 @@
+{
+  "name": "html-combiner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "node_modules/.bin/tsc",
+    "build": "mkdir -p build && npm run tsc",
+    "combine": "rm -rf ./build/site* && rm -rf ../dist && cp -R ../site/ ./build/site && mkdir ../dist && cp -R ../site/assets ../dist/assets && node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.11.1",
+    "typescript": "^3.6.4"
+  }
+}

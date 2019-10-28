@@ -1,0 +1,27 @@
+{
+  "name": "dhbw-svm-outdoor",
+  "version": "1.0.0",
+  "description": "DHBW Semester 1 Group Assignment",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd ./combiner && npm install && npm run-script build && npm run-script combine && cd .. &&  node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasKostadinov/dhbw-svm-outdoor.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/TomasKostadinov/dhbw-svm-outdoor/issues"
+  },
+  "homepage": "https://github.com/TomasKostadinov/dhbw-svm-outdoor#readme",
+  "engines": {
+    "node": "10.x"
+  }
+}

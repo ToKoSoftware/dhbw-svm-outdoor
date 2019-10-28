@@ -1,3 +1,6 @@
+/*  
+    Grundformatierung von HTML und Body 
+*/
 html, body {
     padding: 0;
     margin: 0;
@@ -10,11 +13,22 @@ html, body {
     box-sizing: border-box;
 }
 
+/*  
+    Links:
+    Keine Dekoration (Unterstrichen, Farbig, ...)
+    Text-Farbe: Schwarz 
+*/
 a {
     text-decoration: none;
     color: #000;
 }
 
+/*  
+    Container:
+    Alle Inhalte werden immer in diesen Containern verpackt
+    Maximale Breite: 1200px
+    Rand um Text (padding): Oben 0px, Rest 15px
+*/
 .container {
     max-width: 1200px;
     width: 100%;
@@ -27,10 +41,20 @@ a {
     float: left;
 }
 
+/*
+    distance:
+    Klasse für oberen Abstand 100px (genutzt in Container)
+*/
 .distance {
     margin-top: 100px;
 }
 
+/*
+    Header:
+    Unterer Rand: 1px, durchgezogen, grau
+    Breite: 100%
+    Hintergrund-Farbe: Weiß
+*/
 .header {
     border-bottom: 1px solid #bdc3c7;
     position: fixed;
@@ -46,20 +70,40 @@ a {
     grid-template-columns: 100px auto;
 }
 
+/*
+    Header Logo (img):
+    Maximale Breite: 120px
+*/
 .header .header-logo img {
     max-width: 120px;
 }
 
+/*
+    Header-Navigation:
+    Anordnung: So weit nach links wie möglich (float left)
+*/
 .header .header-navigation {
     justify-self: center;
     float: left;
 }
 
+/*
+    Auflistung:
+    Außenabstand: Oben/unten 22px, Rechts/links 0px
+    Style: keiner (Aufzählung 1.,2., ... nicht vorhanden)
+*/
 .header .header-navigation ul {
     margin: 22px 0;
     list-style: none;
 }
 
+/*
+    Auflistungsinhalte:
+    Anordnung: So weit nach Links wie möglich
+    Innenabstand: 15px in alle Richtungen
+    Unterer Rand: 2px, durchgezogen, transparent
+    Übergang: in 250ms (z.B. beim Hovern)
+*/
 .header .header-navigation li {
     float: left;
     padding: 15px;
@@ -67,20 +111,39 @@ a {
     transition: border 250ms;
 }
 
+/*
+    active:
+    Klasse für aktuell ausgewählte Seite
+    Unterer Rand: Orange
+*/
 .header .header-navigation li.active {
     border-bottom: 2px solid #FCC509;
 }
 
+/* 
+    Auflistungsinhalte hover:
+    Unterer Rand: Orange mit 52% Transparenz (85 als Hexdec-Zahlen)
+*/
 .header .header-navigation li:hover {
     border-bottom: 2px solid #FCC50985;
 }
 
+/*
+    Hero:
+    Klasse für Startbild 
+    Breite: 100%
+    Höhe: 100% - 100px (Würde sonst hinter Header verschwinden)
+*/
 .hero {
     float: left;
     width: 100%;
     height: calc(100vh - 100px);
 }
 
+/*
+    Hero small:
+    Höhe: 65% - 100px
+*/
 .hero.hero--small {
     height: calc(65vh - 100px);
 }
@@ -89,15 +152,31 @@ a {
     height: 100%;
 }
 
+/* 
+    Hero color:
+    Klasse für einfarbiges Startbild
+    Hintergrund-Farbe: Orange
+*/
 .hero.hero--color {
     background: #FCC509;
 }
 
+/*
+    Hero image:
+    Klasse für Bild als Startbild
+    Größe: Cover (vollständig bedeckt)
+    Ausrichtung: Oben mittig
+*/
 .hero.hero--image {
     background-size: cover;
     background-position: top center;
 }
 
+/*
+    Hero inner:
+    Klasse für Bereich in Hero
+    Anzeige: Grid (Aufteilung auf Bildschirm in gleichgroße Teile)
+*/
 .hero .hero-inner {
     display: grid;
     width: 100%;
@@ -109,6 +188,14 @@ a {
     padding: 50px 0;
 }
 
+/*
+    Hero card:
+    Klasse für Textfeld in Hero.
+    Hintergrund-Farbe: Schwarz
+    Innenabstand: Oben 0px, Rest 15px
+    Text-Farbe: Weiß
+
+*/
 .hero .hero-inner .hero-card {
     background: #000;
     padding: 0 15px 15px 15px;
@@ -116,11 +203,23 @@ a {
     align-self: end;
 }
 
+/*
+    Hero card light:
+    Klasse für helles Textfeld in Hero.
+    Hintergrund-Farbe: Weiß
+    Text-Farbe: Schwarz
+*/
 .hero .hero-inner .hero-card.hero-card--light {
     color: #000;
     background: #fff;
 }
 
+/* 
+    Hero inner H1
+    Klasse für Überschrift in Hero.
+    Unterer Rand: 5x, durchgezogen, orange
+    Innenabstand: Oben/unten 10px, Rechts/links 0px
+*/
 .hero .hero-inner h1 {
     border-bottom: 5px solid #FCC509;
     display: inline-block;
@@ -131,6 +230,13 @@ a {
     color: #fff;
 }
 
+/*
+    Button:
+    Klasse für alle Buttons der Seite.
+    Innenabstand: 10px
+    Übergang: 250ms
+    Anordnung: Mittig
+*/
 .button {
     padding: 10px;
     transition: 250ms;
@@ -139,33 +245,73 @@ a {
     display: inline-block;
 }
 
+/*
+    Button hover:
+    Klasse für Hovern (Maus darauffahren)
+    Hintergrund-Farbe: Weiß
+*/
 .button:hover {
     background: #fff !important;
 }
 
+/*
+    Button hover (dark, outline):
+    Hintergrund-Farbe: Orange
+*/
 .button--dark:hover, .button--outline:hover {
     background: #FCC509 !important;
 }
 
+/* 
+    Button solid:
+    Klasse für komplett orangen Button.
+    Rand: 2px, durchgezogen, orange
+    Hintergrund-Farbe: Orange
+*/
 .button.button--solid {
     border: 2px solid #FCC509;
     background: #FCC509;
 }
 
+/*
+    Button outline:
+    Klasse für weißen Button mit orangenem Rand.
+    Rand: 2px, durchgezogen, orange
+*/
 .button.button--outline {
     border: 2px solid #FCC509;
 }
 
+/*
+    Button black-outline:
+    Klasse für weißen Button mit schwarzem Rand.
+    Rand: 2px, durchgezogen, schwarz
+*/
 .button.button--black-outline {
     border: 2px solid #000;
 }
 
+/*
+    Button dark:
+    Klasse für schwarzen Button mit weißem Text.
+    Rand: 2px, durchgezogen, schwarz
+    Hintergrund-Farbe: Schwarz
+    Text-Farbe: Weiß
+*/
 .button.button--dark {
     border: 2px solid #000;
     background: #000;
     color: #fff;
 }
 
+/*
+    Footer:
+    Klasse für Footer (Fußzeile der Website)
+    Hintergrund-Farbe: Schwarz
+    Breite: 100%
+    Anordnung: So weit links wie möglich
+    Text-Farbe: Weiß
+*/
 .footer {
     background: #000;
     width: 100%;
@@ -177,43 +323,79 @@ a {
     color: #fff;
 }
 
+/*
+    Footer item:
+    Klasse für Inhalt in Footer.
+    Innenabstand: Oben/unten 10px, Rechts/links 0px
+*/
 .footer .footer-item {
     padding: 10px 0;
 }
 
+/* 
+    Footer row:
+    Klasse für Spalten in Footer.
+    Anzeige: Grid
+*/
 .footer .footer-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
+/* 
+    Footer ul:
+    Klasse für Auflistung in Footer.
+    Außenabstand: 0px
+    Style: keiner 
+*/
 .footer ul {
     margin: 0;
     list-style: none;
 }
 
+/*
+    Footer li:
+    Klasse für Auflistungsinhalte in Footer.
+    Innenabstand: Oben/unten 7px, Rechts/links 0px
+*/
 .footer li {
     padding: 7px 0;
 }
 
+/* 
+    Footer li a:
+    Klasse für Link in Footer.
+    Dicke: "fetter" als normaler Text
+*/
 .footer li a {
     font-weight: bolder;
 }
 
+/*
+    Footer scroll-top:
+    Klasse für "Nach-Oben"-Button.
+    Innenabstand: 15px
+    Ausrichtung: Rechts
+*/
 .footer .scroll-top {
     padding: 15px;
     text-align: right;
 }
 
-/* Haupt Textinhaltscontainer, Darstellung als CSS Grid */
-
+/* 
+    main content:
+    Haupt Textinhaltscontainer, Darstellung als CSS Grid 
+*/
 .main-content {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 25% auto auto;
 }
 
-/* Seitenmenü, bleibt am "Bildschirm kleben" */
-
+/* 
+    main content sticky:
+    Seitenmenü, bleibt am "Bildschirm kleben" 
+*/
 .main-content .sticky {
     display: block;
     position: sticky;
@@ -251,6 +433,10 @@ a {
     padding-top: 25px;
 }
 
+/*
+    blocks:
+    Klasse für Blöcke in Website (Verlinkungen auf andere Seiten u.ä.)
+*/
 .blocks {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -288,6 +474,12 @@ a {
     padding: 30px 15px;
 }
 
+
+/*
+    MOBILE DARSTELLUNG
+    Für alle Geräte mit maximaler Breite 600px
+    Hier finden nun Anpassungen für oben festgelegt Werte auf Mobile Endgeräte statt.
+*/
 @media only screen and (max-width: 600px) {
 
     .header {

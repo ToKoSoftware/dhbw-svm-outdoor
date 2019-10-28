@@ -122,7 +122,7 @@ a {
 
 /* 
     Auflistungsinhalte hover:
-    Unterer Rand: Orange mit 85% Transparenz
+    Unterer Rand: Orange mit 52% Transparenz (85 als Hexdec-Zahlen)
 */
 .header .header-navigation li:hover {
     border-bottom: 2px solid #FCC50985;

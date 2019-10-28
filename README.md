@@ -22,4 +22,10 @@ DHBW Semester 1 Group Assignment
 
 ## Deployment
 
-This repository's `master` branch is automatically deployed to svm.tomaskostadinov.com with the latest code.
+This repository's `master` branch and all pull requests are automatically deployed to heroku.
+
+## Starting local server
+1. Install `npm`
+2. Run `npm install`
+3. Run `npm start`
+4. Visit the website in the browser on ``http://localhost:80`

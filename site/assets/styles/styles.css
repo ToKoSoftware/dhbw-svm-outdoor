@@ -43,7 +43,7 @@ a {
 
 /*
     distance:
-    Klasse für oberen Abstand 100px (genutzt in Hero)
+    Klasse für oberen Abstand 100px (genutzt in Container)
 */
 .distance {
     margin-top: 100px;

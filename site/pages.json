@@ -3,44 +3,377 @@
   "file": "index.html",
   "destination": "/",
   "title": "Home",
-  "photoUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80",
+  "photoUrl": "/assets/images/running1.jpg",
   "description": "Test",
   "children": [
     {
-      "name": "lauftreff",
-      "destination": "lauftreff",
-      "file": "lauftreff.html",
-      "title": "Unser Lauftreff",
-      "photoUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80",
-      "description": "Test",
+      "name": "Aktuelles",
+      "destination": "aktuelles",
+      "file": "aktuelles/index.html",
+      "title": "Aktuelles",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Aktuelles",
       "children": [
         {
-          "name": "anmeldung-silvester",
-          "destination": "anmeldung",
-          "file": "index.html",
-          "title": "Anmeldung zum Silvesterlauf",
-          "description": "Test",
-          "children": []
+          "name": "Aktuelles",
+          "destination": "2019-03-trainingslager-mallorca",
+          "file": "aktuelles/2019-03-trainingslager-mallorca/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-04-laufangebot-–-alles-neu-macht-der-mai.",
+          "file": "aktuelles/2019-04-laufangebot-–-alles-neu-macht-der-mai./index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-05-albtraum-100",
+          "file": "aktuelles/2019-05-albtraum-100/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-05-ironman-st.-pölten",
+          "file": "aktuelles/2019-05-ironman-st.-pölten/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-05-trail-running-festival-innsbruck",
+          "file": "aktuelles/2019-05-trail-running-festival-innsbruck/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-06-lauingen-triathlon",
+          "file": "aktuelles/2019-06-lauingen-triathlon/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-06-schiller-schülertriathlon",
+          "file": "aktuelles/2019-06-schiller-schülertriathlon/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-07-maintal-ultra-marathon",
+          "file": "aktuelles/2019-07-maintal-ultra-marathon/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-08-allgäu-triathlon",
+          "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
+          "destination": "2019-09-laufangebot-winter",
+          "file": "aktuelles/2019-09-laufangebot-winter/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
         }
       ]
     },
     {
-      "name": "silvesterlauf",
-      "destination": "silvester",
-      "file": "silvesterlauf.html",
-      "title": "Silvesterlauf",
-      "photoUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80",
-      "description": "Test",
+      "name": "bilder",
+      "destination": "bilder",
+      "file": "bilder/index.html",
+      "title": "Bildergallerie",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Bilder",
       "children": [
         {
-          "name": "anmeldung-silvester",
-          "destination": "anmeldung",
-          "file": "index.html",
-          "title": "Anmeldung zum Silvesterlauf",
-          "photoUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80",
-          "description": "Test",
-          "children": []
+          "name": "Bilder",
+          "destination": "2018-03-trainingslager-mallorca",
+          "file": "bilder/2018-03-trainingslager-mallorca/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2018-06-lauingen-triathlon",
+          "file": "bilder/2018-06-lauingen-triathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2018-07-challenge-roth",
+          "file": "bilder/2018-07-challenge-roth/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2018-08-allgäu-triathlon",
+          "file": "bilder/2018-08-allgäu-triathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2018-10-frankfurt-marathon",
+          "file": "bilder/2018-10-frankfurt-marathon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2018-12-silvesterlauf",
+          "file": "bilder/2018-12-silvesterlauf/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-03-trainingslager-mallorca",
+          "file": "bilder/2019-03-trainingslager-mallorca/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-05-albtraum-100",
+          "file": "bilder/2019-05-albtraum-100/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-05-ironman-st.-pölten",
+          "file": "bilder/2019-05-ironman-st.-pölten/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-05-trail-running-festival-innsbruck",
+          "file": "bilder/2019-05-trail-running-festival-innsbruck/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-06-lauf-geht’s",
+          "file": "bilder/2019-06-lauf-geht’s/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-06-lauingen-triathlon",
+          "file": "bilder/2019-06-lauingen-triathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-06-vereinsmeisterschaften",
+          "file": "bilder/2019-06-vereinsmeisterschaften/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-07-ellwangen-triathlon",
+          "file": "bilder/2019-07-ellwangen-triathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-07-maintal-ultra-marathon",
+          "file": "bilder/2019-07-maintal-ultra-marathon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-08-allgäu-triathlon",
+          "file": "bilder/2019-08-allgäu-triathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
         }
+      ]
+    },
+    {
+      "name": "impressum-datenschutz",
+      "destination": "impressum-datenschutz",
+      "file": "impressum-datenschutz/index.html",
+      "title": "Impressum und Datenschutz",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Impressum",
+      "children": [
+      ]
+    },
+    {
+      "name": "intern",
+      "destination": "intern",
+      "file": "intern/index.html",
+      "title": "Intern",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Intern",
+      "children": [
+      ]
+    },
+    {
+      "name": "lauftreff",
+      "destination": "lauftreff",
+      "file": "lauftreff/index.html",
+      "title": "Unser Lauftreff",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Lauftreff",
+      "children": [
+      ]
+    },
+    {
+      "name": "leichtathletik",
+      "destination": "leichtathletik",
+      "file": "leichtathletik/index.html",
+      "title": "Unser Lauftreff",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Leichtathletik",
+      "children": [
+      ]
+    },
+    {
+      "name": "leitbild",
+      "destination": "leitbild",
+      "file": "leitbild/index.html",
+      "title": "Leitbild",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Leitbild",
+      "children": [
+      ]
+    },
+    {
+      "name": "silvesterlauf",
+      "destination": "silvesterlauf",
+      "file": "silvesterlauf/index.html",
+      "title": "Der Silvesterlauf",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Silvesterlauf",
+      "children": [
+      ]
+    },
+    {
+      "name": "sponsoren",
+      "destination": "sponsoren",
+      "file": "sponsoren/index.html",
+      "title": "Unsere Sponsoren",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Sponsoren",
+      "children": [
+      ]
+    },
+    {
+      "name": "team",
+      "destination": "team",
+      "file": "team/index.html",
+      "title": "Das Team",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Das Test",
+      "children": [
+      ]
+    },
+    {
+      "name": "triathlon",
+      "destination": "triathlon",
+      "file": "triathlon/index.html",
+      "title": "Triathlon",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Triathlon",
+      "children": [
       ]
     }
   ]

@@ -308,7 +308,7 @@
     },
     {
       "name": "lauftreff",
-      "destination": "Lauftreff",
+      "destination": "lauftreff",
       "file": "lauftreff/index.html",
       "title": "Unser Lauftreff",
       "photoUrl": "/assets/images/running1.jpg",

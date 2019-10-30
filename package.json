@@ -9,6 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start-win": "cd ./combiner && npm install && npm run-script build && npm run-script combine && cd .. &&  node server-windows.js",
     "start": "cd ./combiner && npm install && npm run-script build && npm run-script combine && cd .. &&  node server.js"
   },
   "repository": {

@@ -9,6 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "wsl": "cd ./combiner && npm install && npm run-script build && npm run-script combine && cd .. &&  node server-windows-wsl.js",
     "start": "cd ./combiner && npm install && npm run-script build && npm run-script combine && cd .. &&  node server.js"
   },
   "repository": {

@@ -266,6 +266,16 @@
         },
         {
           "name": "Bilder",
+          "destination": "2019-06-schiller-schülertriathlon",
+          "file": "bilder/2019-06-schiller-schülertriathlon/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
           "destination": "2019-07-ellwangen-triathlon",
           "file": "bilder/2019-07-ellwangen-triathlon/index.html",
           "title": "Bilder",

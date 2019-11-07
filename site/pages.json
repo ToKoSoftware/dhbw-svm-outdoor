@@ -364,7 +364,73 @@
       "photoUrl": "/assets/images/running1.jpg",
       "description": "Das Test",
       "children": [
-      ]
+                 {
+                   "name": "abteilungsleitung",
+                   "destination": "abteilungsleitung",
+                   "file": "team/abteilungsleitung/index.html",
+                   "title": "Abteilungsleitung",
+                    "photoUrl": "/assets/images/team_pics/Abteilungsleitung/bild.jpg",
+                   "description": "Abteilungsleitung",
+                   "children": [
+                   ]},
+                   {
+                    "name": "finanzen",
+                    "destination": "finanzen",
+                    "file": "team/finanzen/index.html",
+                    "title": "Finanzen",
+                    "photoUrl": "/assets/images/team_pics/Finanzen/taschenrechner.jpg",
+                    "description": "Finanzen",
+                    "children": [
+                  ]},
+                  {
+                    "name": "laufen",
+                    "destination": "laufen",
+                    "file": "team/laufen/index.html",
+                    "title": "Laufen",
+                    "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
+                    "description": "Laufen",
+                    "children": [
+                  ]},
+                  {
+                    "name": "leichtathletik",
+                    "destination": "leichtathletik",
+                    "file": "team/leichtathletik/index.html",
+                    "title": "Leichtathletik",
+                    "photoUrl": "/assets/images/team_pics/Leichtathletik/Leitathletik1.jpg",
+                    "description": "Leichtathletik",
+                    "children": [
+                  ]},
+                  {
+                    "name": "presse",
+                    "destination": "presse",
+                    "file": "team/presse/index.html",
+                    "title": "Presse",
+                    "photoUrl": "/assets/images/team_pics/Presse/sikkerdude.jpg",
+                    "description": "Presse",
+                    "children": [
+                  ]},
+                  {
+                    "name": "triathlon",
+                    "destination": "triathlon",
+                    "file": "team/triathlon/index.html",
+                    "title": "Triathlon",
+                    "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
+                    "description": "Triathlon",
+                    "children": [
+                  ]},
+                  {
+                    "name": "organisation_silvesterlauf",
+                    "destination": "organisation_silvesterlauf",
+                    "file": "team/organisation_silvesterlauf/index.html",
+                    "title": "Organisation Silvesterlauf",
+                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
+                    "description": "Organisation Silvesterlauf",
+                    "children": [
+                  ]}
+     
+    
+    ]
+    
     },
     {
       "name": "triathlon",

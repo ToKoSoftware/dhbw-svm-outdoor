@@ -9,6 +9,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+img {
+    max-width: 100%;
+}
+
 * {
     box-sizing: border-box;
 }

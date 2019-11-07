@@ -96,6 +96,16 @@
         },
         {
           "name": "Aktuelles",
+          "destination": "2019-07-schuhtestaktion",
+          "file": "aktuelles/2019-07-schuhtestaktion/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
           "destination": "2019-08-allgäu-triathlon",
           "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
           "title": "Aktuelles",

@@ -393,7 +393,7 @@
             ]
           }
           ]
-        }
+        },
         {
           "name": "mobi-stabi-training",
           "destination": "mobi-stabi-training",
@@ -413,7 +413,7 @@
             ]
           }
           ]
-        }
+        },
         {
           "name": "radfahren",
           "destination": "radfahren",
@@ -433,7 +433,7 @@
             ]
           }
       ]
-    }
+    },
     {
       "name": "schwimmen",
       "destination": "schwimmen",
@@ -455,4 +455,6 @@
       ]
     }
   ]
+  }
+]
 }

@@ -390,7 +390,42 @@
                     "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
                     "description": "Laufen",
                     "children": [
-                  ]},
+                                  {
+                                    "name": "laufen_spartenleitung_laufen",
+                                    "destination": "laufen_spartenleitung_laufen",
+                                    "file": "team/laufen/spartenleitung_laufen/index.html",
+                                    "title": "Laufen Spartenleitung",
+                                    "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
+                                    "description": "Laufen Spartenleitung",
+                                    "children": [
+                                                ]},
+                                  {
+                                    "name": "laufen_trainer_laufen",
+                                    "destination": "laufen_trainer_laufen",
+                                    "file": "team/laufen/trainer_laufen/index.html",
+                                    "title": "Laufen Trainer",
+                                    "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
+                                    "description": "Laufen Trainer",
+                                    "children": [{
+                                                    "name": "laufen_trainer_laufen1",
+                                                    "destination": "laufen_trainer_laufen1",
+                                                    "file": "team/laufen/trainer_laufen/trainer1/index.html",
+                                                    "title": "Laufen Trainer1",
+                                                    "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
+                                                    "description": "Laufen Trainer1",
+                                                    "children": [
+                                                  ]},
+                                                  {
+                                                    "name": "laufen_trainer_laufen2",
+                                                    "destination": "laufen_trainer_laufen2",
+                                                    "file": "team/laufen/trainer_laufen/trainer2/index.html",
+                                                    "title": "Laufen Trainer",
+                                                    "photoUrl": "/assets/images/team_pics/Laufen/laufen2.jpg",
+                                                    "description": "Laufen Trainer2",
+                                                    "children": [
+                                                ]}
+                                                ]}
+                                ]},
                   {
                     "name": "leichtathletik",
                     "destination": "leichtathletik",
@@ -399,7 +434,26 @@
                     "photoUrl": "/assets/images/team_pics/Leichtathletik/Leitathletik1.jpg",
                     "description": "Leichtathletik",
                     "children": [
-                  ]},
+                                  {
+                                    "name": "trainer_leichtathletik",
+                                    "destination": "trainer_leichtathletik",
+                                    "file": "team/leichtathletik/trainer_leichtathletik/index.html",
+                                    "title": "Leichtathletik Trainer",
+                                    "photoUrl": "/assets/images/team_pics/Leichtathletik/Leitathletik1.jpg",
+                                    "description": "Leichtathletik Trainer",
+                                    "children": [
+                                  ]},
+                                  {
+                                    "name": "leichtathletik_spartenleitung",
+                                    "destination": "leichtathletik_spartenleitung",
+                                    "file": "team/leichtathletik/spartenleitung_leichtathletik/index.html",
+                                    "title": "Leichtathletik Spartenleitung",
+                                    "photoUrl": "/assets/images/team_pics/Leichtathletik/spartenleitung/Leitathletik1.jpg",
+                                    "description": "Leichtathletik Spartenleitung",
+                                    "children": [
+                                  ]}
+
+                                ]},
                   {
                     "name": "presse",
                     "destination": "presse",
@@ -417,93 +471,68 @@
                     "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
                     "description": "Triathlon",
                     "children": [
-                  ]},
+                                
+                                  {
+                                    "name": "triathlon_spartenleitung_triathlon",
+                                    "destination": "triathlon_spartenleitung_triathlon",
+                                    "file": "team/triathlon/spartenleitung_triathlon/index.html",
+                                    "title": "Triathlon Spartenleitung",
+                                    "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
+                                    "description": "Triathlon Spartenleitung",
+                                    "children": [
+                                  ]},
+                                  {
+                                    "name": "triathlon_trainer_triathlon",
+                                    "destination": "triathlon_trainer_triathlon",
+                                    "file": "team/triathlon/trainer_triathlon/index.html",
+                                    "title": "Triathlon Trainer",
+                                    "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
+                                    "description": "Triathlon Trainer",
+                                    "children": [
+                                  ]}
+                                 ]},
                   {
                     "name": "organisation_silvesterlauf",
                     "destination": "organisation_silvesterlauf",
-                    "file": "team/organisation_silvesterlauf/index.html",
+                    "file": "team/organisation-silvesterlauf/index.html",
                     "title": "Organisation Silvesterlauf",
                     "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
                     "description": "Organisation Silvesterlauf",
                     "children": [
-                  ]},
-                  {
-                    "name": "organisation_silvesterlauf_julia_schier",
-                    "destination": "organisation_silvesterlauf_julia_schier",
-                    "file": "team/organisation_silvesterlauf/julia_schier/index.html",
-                    "title": "Organisation Silvesterlauf Julia Schier",
-                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
-                    "description": "Organisation Silvesterlauf",
-                    "children": [
-                  ]},
-                  {
-                    "name": "organisation_silvesterlauf_martin_zimmt",
-                    "destination": "organisation_silvesterlauf_martin_zimmt",
-                    "file": "team/organisation_silvesterlauf/martin_zimmt/index.html",
-                    "title": "Organisation Silvesterlauf Martin Zimmt",
-                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
-                    "description": "Organisation Silvesterlauf",
-                    "children": [
-                  ]},
-                  {
-                    "name": "organisation_silvesterlauf_max_schenck",
-                    "destination": "organisation_silvesterlauf_max_schenck",
-                    "file": "team/organisation_silvesterlauf/max_schenck/index.html",
-                    "title": "Organisation Silvesterlauf Max Schenck",
-                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
-                    "description": "Organisation Silvesterlauf",
-                    "children": [
-                  ]},
-                  {
-                    "name": "triathlon_spartenleitung_triathlon",
-                    "destination": "triathlon_spartenleitung_triathlon",
-                    "file": "team/triathlon/spartenleitung_triathlon/index.html",
-                    "title": "Triathlon Spartenleitung",
-                    "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
-                    "description": "Triathlon Spartenleitung",
-                    "children": [
-                  ]},
-                  {
-                    "name": "triathlon_trainer_triathlon",
-                    "destination": "triathlon_trainer_triathlon",
-                    "file": "team/triathlon/trainer_triathlon/index.html",
-                    "title": "Triathlon Trainer",
-                    "photoUrl": "/assets/images/team_pics/Triathlon/triathlon2.jpg",
-                    "description": "Triathlon Trainer",
-                    "children": [
-                  ]},
-                  {
-                    "name": "trainer_leichtathletik",
-                    "destination": "trainer_leichtathletik",
-                    "file": "team/leichtathletik/trainer_leichtathletik/index.html",
-                    "title": "Leichtathletik Trainer",
-                    "photoUrl": "/assets/images/team_pics/Leichtathletik/Leitathletik1.jpg",
-                    "description": "Leichtathletik Trainer",
-                    "children": [
-                  ]},
-                  {
-                    "name": "leichtathletik_spartenleitung",
-                    "destination": "leichtathletik_spartenleitung",
-                    "file": "team/leichtathletik/index.html",
-                    "title": "Leichtathletik Spartenleitung",
-                    "photoUrl": "/assets/images/team_pics/Leichtathletik/spartenleitung/Leitathletik1.jpg",
-                    "description": "Leichtathletik Spartenleitung",
-                    "children": [
-                  ]}
+                                  {
+                                    "name": "organisation_silvesterlauf_julia_schier",
+                                    "destination": "organisation_silvesterlauf_julia_schier",
+                                    "file": "team/organisation-silvesterlauf/julia-schier/index.html",
+                                    "title": "Organisation Silvesterlauf Julia Schier",
+                                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
+                                    "description": "Organisation Silvesterlauf",
+                                    "children": [
+                                  ]},
+                                  {
+                                    "name": "organisation_silvesterlauf_martin_zimmt",
+                                    "destination": "organisation_silvesterlauf_martin_zimmt",
+                                    "file": "team/organisation-silvesterlauf/martin_zimmt/index.html",
+                                    "title": "Organisation Silvesterlauf Martin Zimmt",
+                                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
+                                    "description": "Organisation Silvesterlauf",
+                                    "children": [
+                                  ]},
+                                  {
+                                    "name": "organisation_silvesterlauf_max_schenck",
+                                    "destination": "organisation_silvesterlauf_max_schenck",
+                                    "file": "team/organisation-silvesterlauf/max_schenck/index.html",
+                                    "title": "Organisation Silvesterlauf Max Schenck",
+                                    "photoUrl": "/assets/images/team_pics/Silvesterlauf/slvester2.jpg",
+                                    "description": "Organisation Silvesterlauf",
+                                    "children": [
+                                    ]}
+                                ]}
+                  
+                 
      
     
     ]
     
-    },
-    {
-      "name": "triathlon",
-      "destination": "triathlon",
-      "file": "triathlon/index.html",
-      "title": "Triathlon",
-      "photoUrl": "/assets/images/running1.jpg",
-      "description": "Triathlon",
-      "children": [
-      ]
     }
   ]
 }

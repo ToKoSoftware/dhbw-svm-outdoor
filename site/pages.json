@@ -317,6 +317,16 @@
       ]
     },
     {
+      "name": "triathlon",
+      "destination": "triathlon",
+      "file": "triathlon/index.html",
+      "title": "Triathlon",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "Triathlon",
+      "children": [
+      ]
+    },
+    {
       "name": "leichtathletik",
       "destination": "leichtathletik",
       "file": "leichtathletik/index.html",

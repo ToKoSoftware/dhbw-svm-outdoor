@@ -375,6 +375,15 @@
       "description": "Triathlon",
       "children": [
         {
+          "name": "Home",
+          "destination": "home",
+          "file": "triathlon/home/index.html",
+          "title": "Home",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Home",
+          "children": []
+        },
+        {
           "name": "Laufen",
           "destination": "laufen",
           "file": "triathlon/laufen/index.html",

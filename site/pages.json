@@ -526,7 +526,7 @@
                                     "description": "Organisation Silvesterlauf",
                                     "children": [
                                     ]}
-                                ]},
+                                
     ]},
     {
       "name": "triathlon",
@@ -615,5 +615,8 @@
         ]
         }
       ]
-  ]
+    
 }
+      ]}
+       ]} 
+       ]} 

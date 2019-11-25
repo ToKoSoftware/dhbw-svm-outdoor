@@ -381,7 +381,7 @@
                     "photoUrl": "/assets/images/team_pics/Finanzen/taschenrechner.jpg",
                     "description": "Finanzen",
                     "children": [
-                  ]},               <!-- close finanzen innerhalb team -->
+                  ]},               
                   {
                     "name": "laufen",
                     "destination": "laufen",
@@ -424,8 +424,8 @@
                                                     "description": "Laufen Trainer2",
                                                     "children": [
                                                 ]}
-                                                    ]} <!-- close trainer laufen innerhalb team --> 
-                                ]},  <!-- close laufen innerhalb team -->
+                                                    ]}  
+                                ]}, 
                   {
                     "name": "leichtathletik",
                     "destination": "leichtathletik",
@@ -453,7 +453,7 @@
                                     "children": [
                                   ]}
 
-                                ]}, <!-- Leichtathletik close innerhalb team -->
+                                ]}, 
                   {
                     "name": "presse",
                     "destination": "presse",
@@ -462,7 +462,7 @@
                     "photoUrl": "/assets/images/team_pics/Presse/sikkerdude.jpg",
                     "description": "Presse",
                     "children": [
-                  ]}, <!-- Presse close innerhalb team -->
+                  ]}, 
                   {
                     "name": "triathlon",
                     "destination": "triathlon",
@@ -490,7 +490,7 @@
                                     "description": "Triathlon Trainer",
                                     "children": [
                                   ]}
-                                 ]}, <!-- triathlon close innerhalb team --> 
+                                 ]},
                   {
                     "name": "organisation_silvesterlauf",
                     "destination": "organisation_silvesterlauf",
@@ -526,7 +526,7 @@
                                     "description": "Organisation Silvesterlauf",
                                     "children": [
                                     ]}
-                                    ]} <!-- Orga Silvesterlauf close -->
+                                    ]} 
                                 
     ]}, 
     {

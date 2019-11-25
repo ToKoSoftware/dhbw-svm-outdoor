@@ -7,6 +7,16 @@
   "description": "Test",
   "children": [
     {
+      "name": "design",
+      "destination": "design",
+      "file": "design/index.html",
+      "title": "Design",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "",
+      "children": [
+      ]
+    },
+    {
       "name": "Aktuelles",
       "destination": "aktuelles",
       "file": "aktuelles/index.html",

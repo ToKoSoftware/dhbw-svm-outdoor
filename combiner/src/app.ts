@@ -33,7 +33,6 @@ function createHtmlFile(page: Page, parent: string) {
     html = replaceAll(html, "{{name}}", page.name);
     html = replaceAll(html, "{{keyWords}}", page.keyWords);
     html = replaceAll(html, "{{photoUrl}}", page.photoUrl);
-    html = replaceAll(html, "{{photoUrl}}", page.photoUrl);
     html = replaceAll(html, "{{nav}}", createNav(page));
     html = replaceAll(html, "{{description}}", page.description);
     html = replaceAll(html, "{{content}}", getStructureFile(page.file));

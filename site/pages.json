@@ -115,7 +115,7 @@
           ]
         }
       ]
-    },
+    }, <!-- close aktuelles -->
     {
       "name": "bilder",
       "destination": "bilder",
@@ -285,7 +285,7 @@
           ]
         }
       ]
-    },
+    },  <!-- close Bilder -->
     {
       "name": "impressum-datenschutz",
       "destination": "impressum-datenschutz",
@@ -295,7 +295,7 @@
       "description": "Impressum",
       "children": [
       ]
-    },
+    }, <!-- close impressum-datenschutz -->
     {
       "name": "intern",
       "destination": "intern",
@@ -305,7 +305,7 @@
       "description": "Intern",
       "children": [
       ]
-    },
+    }, <!-- close intern -->
     {
       "name": "lauftreff",
       "destination": "lauftreff",
@@ -315,7 +315,7 @@
       "description": "Lauftreff",
       "children": [
       ]
-    },
+    }, <!--close Lauftreff -->
     {
       "name": "leichtathletik",
       "destination": "leichtathletik",
@@ -325,7 +325,7 @@
       "description": "Leichtathletik",
       "children": [
       ]
-    },
+    }, <!-- close Leichtathletik -->
     {
       "name": "leitbild",
       "destination": "leitbild",
@@ -335,7 +335,7 @@
       "description": "Leitbild",
       "children": [
       ]
-    },
+    }, <!-- close leitbild -->
     {
       "name": "silvesterlauf",
       "destination": "silvesterlauf",
@@ -345,7 +345,7 @@
       "description": "Silvesterlauf",
       "children": [
       ]
-    },
+    }, <!-- close silvesterlauf -->
     {
       "name": "sponsoren",
       "destination": "sponsoren",
@@ -355,7 +355,7 @@
       "description": "Sponsoren",
       "children": [
       ]
-    },
+    }, <!-- close sponsoren -->
     {
       "name": "team",
       "destination": "team",
@@ -381,7 +381,7 @@
                     "photoUrl": "/assets/images/team_pics/Finanzen/taschenrechner.jpg",
                     "description": "Finanzen",
                     "children": [
-                  ]},
+                  ]},               <!-- close finanzen innerhalb team -->
                   {
                     "name": "laufen",
                     "destination": "laufen",
@@ -424,8 +424,8 @@
                                                     "description": "Laufen Trainer2",
                                                     "children": [
                                                 ]}
-                                                ]}
-                                ]},
+                                                    ]} <!-- close trainer laufen innerhalb team --> 
+                                ]},  <!-- close laufen innerhalb team -->
                   {
                     "name": "leichtathletik",
                     "destination": "leichtathletik",
@@ -453,7 +453,7 @@
                                     "children": [
                                   ]}
 
-                                ]},
+                                ]}, <!-- Leichtathletik close innerhalb team -->
                   {
                     "name": "presse",
                     "destination": "presse",
@@ -462,7 +462,7 @@
                     "photoUrl": "/assets/images/team_pics/Presse/sikkerdude.jpg",
                     "description": "Presse",
                     "children": [
-                  ]},
+                  ]}, <!-- Presse close innerhalb team -->
                   {
                     "name": "triathlon",
                     "destination": "triathlon",
@@ -490,7 +490,7 @@
                                     "description": "Triathlon Trainer",
                                     "children": [
                                   ]}
-                                 ]},
+                                 ]}, <!-- triathlon close innerhalb team --> 
                   {
                     "name": "organisation_silvesterlauf",
                     "destination": "organisation_silvesterlauf",
@@ -526,8 +526,9 @@
                                     "description": "Organisation Silvesterlauf",
                                     "children": [
                                     ]}
+                                    ]} <!-- Orga Silvesterlauf close -->
                                 
-    ]},
+    ]}, <!-- close team -->
     {
       "name": "triathlon",
       "destination": "triathlon",
@@ -617,6 +618,6 @@
       ]
     
 }
-      ]}
-       ]} 
-       ]} 
+      ]} <!--  close triathlon child  tean-->
+       ]}  <!-- close home -->
+       

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Home",
+    "name": "home",
+    "url": "/"
+  },
+  {
+    "title": "Silvesterlauf",
+    "name": "silvesterlauf",
+    "url": "/silvesterlauf"
+  },
+  {
+    "title": "Lauftreff",
+    "name": "lauftreff",
+    "url": "/lauftreff"
+  },
+  {
+    "title": "Triathlon",
+    "name": "triathlon",
+    "url": "/triathlon"
+  },
+  {
+    "title": "Leichtathletik",
+    "name": "leichtathletik",
+    "url": "/leichtathletik"
+  },
+  {
+    "title": "Aktuelles",
+    "name": "aktuelles",
+    "url": "/aktuelles"
+  },
+  {
+    "title": "Bilder",
+    "name": "bilder",
+    "url": "/bilder"
+  }
+]

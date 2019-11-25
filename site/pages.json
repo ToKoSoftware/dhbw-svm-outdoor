@@ -115,7 +115,7 @@
           ]
         }
       ]
-    }, <!-- close aktuelles -->
+    }, 
     {
       "name": "bilder",
       "destination": "bilder",
@@ -285,7 +285,7 @@
           ]
         }
       ]
-    },  <!-- close Bilder -->
+    },  
     {
       "name": "impressum-datenschutz",
       "destination": "impressum-datenschutz",
@@ -295,7 +295,7 @@
       "description": "Impressum",
       "children": [
       ]
-    }, <!-- close impressum-datenschutz -->
+    },
     {
       "name": "intern",
       "destination": "intern",
@@ -305,7 +305,7 @@
       "description": "Intern",
       "children": [
       ]
-    }, <!-- close intern -->
+    }, 
     {
       "name": "lauftreff",
       "destination": "lauftreff",
@@ -315,7 +315,7 @@
       "description": "Lauftreff",
       "children": [
       ]
-    }, <!--close Lauftreff -->
+    }, 
     {
       "name": "leichtathletik",
       "destination": "leichtathletik",
@@ -325,7 +325,7 @@
       "description": "Leichtathletik",
       "children": [
       ]
-    }, <!-- close Leichtathletik -->
+    }, 
     {
       "name": "leitbild",
       "destination": "leitbild",
@@ -335,7 +335,7 @@
       "description": "Leitbild",
       "children": [
       ]
-    }, <!-- close leitbild -->
+    }, 
     {
       "name": "silvesterlauf",
       "destination": "silvesterlauf",
@@ -345,7 +345,7 @@
       "description": "Silvesterlauf",
       "children": [
       ]
-    }, <!-- close silvesterlauf -->
+    }, 
     {
       "name": "sponsoren",
       "destination": "sponsoren",
@@ -355,7 +355,7 @@
       "description": "Sponsoren",
       "children": [
       ]
-    }, <!-- close sponsoren -->
+    }, 
     {
       "name": "team",
       "destination": "team",
@@ -528,7 +528,7 @@
                                     ]}
                                     ]} <!-- Orga Silvesterlauf close -->
                                 
-    ]}, <!-- close team -->
+    ]}, 
     {
       "name": "triathlon",
       "destination": "triathlon",
@@ -618,6 +618,6 @@
       ]
     
 }
-      ]} <!--  close triathlon child  tean-->
-       ]}  <!-- close home -->
+      ]} 
+       ]}  
        

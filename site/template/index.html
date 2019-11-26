@@ -8,6 +8,20 @@
     <meta charset="UTF-8">
     <title>{{title}}</title>
 
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="{{title}}">
+    <meta property="og:description" content="{{description}}">
+    <meta property="og:image" content="{{photoUrl}}">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    <!--  Non-Essential, But Recommended -->
+
+    <meta property="og:site_name" content="European Travel, Inc.">
+    <meta name="twitter:image:alt" content="Alt text for image">
+
+
     <link href="/assets/styles/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 
@@ -24,27 +38,7 @@
             </div>
             <div class="header-navigation">
                 <ul>
-                    <li class="active">
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="/silvesterlauf">Silvesterlauf</a>
-                    </li>
-                    <li>
-                        <a href="/lauftreff">Lauftreff</a>
-                    </li>
-                    <li>
-                        <a href="/triathlon">Triathlon</a>
-                    </li>
-                    <li>
-                        <a href="/leichtathletik">Leichtathletik</a>
-                    </li>
-                    <li>
-                        <a href="/aktuelles">Aktuelles</a>
-                    </li>
-                    <li>
-                        <a href="/bilder">Bilder</a>
-                    </li>
+                    {{nav}}
                 </ul>
             </div>
         </div>

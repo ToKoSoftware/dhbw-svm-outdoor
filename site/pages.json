@@ -375,7 +375,7 @@
       "description": "Triathlon",
       "children": [
         {
-          "name": "Triathlon-Home",
+          "name": "triathlon-home",
           "destination": "home",
           "file": "triathlon/home/index.html",
           "title": "Home",

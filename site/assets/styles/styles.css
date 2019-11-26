@@ -569,6 +569,24 @@ a {
     .container.distance {
         margin-top: 0;
     }
+    .activity-content {
+        column-gap: normal;
+        margin-top: 30px;
+    }
+    
+    .activity-content .content{
+        grid-row: auto;
+        grid-column: 1/2;
+        padding: 0;
+        border: none;
+    }
+    .activity-content .trainer{
+        grid-row: auto;
+        grid-column: 2/2;
+        padding: 0;
+        border: none;
+    }
+
     .main-content {
         column-gap: normal;
     }

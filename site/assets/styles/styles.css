@@ -395,6 +395,20 @@ a {
     grid-gap: 30px;
     grid-template-columns: 25% auto auto;
 }
+.activity-content {
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 30px;
+    grid-template-columns: auto 25%;
+}
+
+.activity-content .content{
+    padding: 0 20px;
+}
+.activity-content .trainer{
+    border-left: 1px solid #bdc3c7;
+    padding: 0 20px;
+}
 
 /* 
     main content sticky:

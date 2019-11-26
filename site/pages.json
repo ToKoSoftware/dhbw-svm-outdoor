@@ -390,18 +390,7 @@
           "title": "Laufen",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Laufen",
-          "children": [
-            {
-            "name": "Laufen",
-            "destination": "trainingsplan",
-            "file": "triathlon/laufen/trainingsplan/index.html",
-            "title": "Laufen",
-            "photoUrl": "/assets/images/running1.jpg",
-            "description": "Laufen",
-            "children": [
-            ]
-          }
-          ]
+          "children": []
         },
         {
           "name": "mobi-stabi-training",
@@ -410,18 +399,7 @@
           "title": "mobi-stabi-training",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "mobi-stabi-training",
-          "children": [
-            {
-            "name": "mobi-stabi-training",
-            "destination": "trainingsplan",
-            "file": "triathlon/mobi-stabi-training/trainingsplan/index.html",
-            "title": "mobi-stabi-training",
-            "photoUrl": "/assets/images/running1.jpg",
-            "description": "mobi-stabi-training",
-            "children": [
-            ]
-          }
-          ]
+          "children": []
         },
         {
           "name": "radfahren",
@@ -430,18 +408,7 @@
           "title": "radfahren",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "radfahren",
-          "children": [
-            {
-            "name": "radfahren",
-            "destination": "trainingsplan",
-            "file": "triathlon/radfahren/trainingsplan/index.html",
-            "title": "radfahren",
-            "photoUrl": "/assets/images/running1.jpg",
-            "description": "radfahren",
-            "children": [
-            ]
-          }
-      ]
+          "children": []
     },
     {
       "name": "schwimmen",
@@ -450,18 +417,7 @@
       "title": "schwimmen",
       "photoUrl": "/assets/images/running1.jpg",
       "description": "schwimmen",
-      "children": [
-        {
-        "name": "schwimmen",
-        "destination": "trainingsplan",
-        "file": "triathlon/schwimmen/trainingsplan/index.html",
-        "title": "schwimmen",
-        "photoUrl": "/assets/images/running1.jpg",
-        "description": "schwimmen",
-        "children": [
-        ]
-        }
-      ]
+      "children": []
     }
   ]
   }

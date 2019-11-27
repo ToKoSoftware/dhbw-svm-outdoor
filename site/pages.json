@@ -378,7 +378,7 @@
           "name": "triathlon-home",
           "destination": "home",
           "file": "triathlon/home/index.html",
-          "title": "Home",
+          "title": "Triathlon",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Home",
           "children": []
@@ -387,7 +387,7 @@
           "name": "Laufen",
           "destination": "laufen",
           "file": "triathlon/laufen/index.html",
-          "title": "Laufen",
+          "title": "Triathlon",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Laufen",
           "children": []
@@ -396,7 +396,7 @@
           "name": "mobi-stabi-training",
           "destination": "mobi-stabi-training",
           "file": "triathlon/mobi-stabi-training/index.html",
-          "title": "mobi-stabi-training",
+          "title": "Triathlon",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "mobi-stabi-training",
           "children": []
@@ -405,7 +405,7 @@
           "name": "radfahren",
           "destination": "radfahren",
           "file": "triathlon/radfahren/index.html",
-          "title": "radfahren",
+          "title": "Triathlon",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "radfahren",
           "children": []
@@ -414,7 +414,7 @@
       "name": "schwimmen",
       "destination": "schwimmen",
       "file": "triathlon/schwimmen/index.html",
-      "title": "schwimmen",
+      "title": "Triathlon",
       "photoUrl": "/assets/images/running1.jpg",
       "description": "schwimmen",
       "children": []

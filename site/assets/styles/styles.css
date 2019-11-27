@@ -571,6 +571,7 @@ a {
     }
     .activity-content {
         column-gap: normal;
+        grid-template-columns: none;
     }
     
     .activity-content .content{

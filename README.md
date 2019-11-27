@@ -26,8 +26,10 @@ This repository's `master` branch and all pull requests are automatically deploy
 
 ## Starting local server
 1. Install `npm`
+
 2. Run `npm install`
-3.1 Mac: Run `npm start`
-3.2 Win-WSL: Run `npm run-script wsl`
-4. Visit the website in the browser on ``http://localhost:3000`
+3. Start the server
+Mac: Run `npm start` 
+Win-WSL: Run `npm run-script wsl`
+4. Visit the website in the browser on `http://localhost:3000`
 5. Make changes by changing directory (cd) to ./combiner and run `npm run-script combine`

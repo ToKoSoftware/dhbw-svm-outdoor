@@ -3,7 +3,7 @@
   "file": "index.html",
   "destination": "/",
   "title": "Home",
-  "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+  "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
   "description": "Test",
   "children": [
     {
@@ -11,7 +11,7 @@
       "destination": "design",
       "file": "design/index.html",
       "title": "Design",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "",
       "children": [
       ]
@@ -21,7 +21,7 @@
       "destination": "aktuelles",
       "file": "aktuelles/index.html",
       "title": "Aktuelles",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Aktuelles",
       "children": [
         {
@@ -29,7 +29,7 @@
           "destination": "2019-03-trainingslager-mallorca",
           "file": "aktuelles/2019-03-trainingslager-mallorca/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -39,7 +39,7 @@
           "destination": "2019-05-albtraum-100",
           "file": "aktuelles/2019-05-albtraum-100/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -49,7 +49,7 @@
           "destination": "2019-05-ironman-st.-pölten",
           "file": "aktuelles/2019-05-ironman-st.-pölten/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -59,7 +59,7 @@
           "destination": "2019-05-trail-running-festival-innsbruck",
           "file": "aktuelles/2019-05-trail-running-festival-innsbruck/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -69,7 +69,7 @@
           "destination": "2019-06-lauingen-triathlon",
           "file": "aktuelles/2019-06-lauingen-triathlon/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -79,7 +79,7 @@
           "destination": "2019-06-schiller-schülertriathlon",
           "file": "aktuelles/2019-06-schiller-schülertriathlon/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -89,7 +89,7 @@
           "destination": "2019-07-maintal-ultra-marathon",
           "file": "aktuelles/2019-07-maintal-ultra-marathon/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -99,7 +99,7 @@
           "destination": "2019-08-allgäu-triathlon",
           "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
           "title": "Aktuelles",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Aktuelles",
           "children": [
           ]
@@ -111,7 +111,7 @@
       "destination": "bilder",
       "file": "bilder/index.html",
       "title": "Bildergallerie",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Bilder",
       "children": [
         {
@@ -119,7 +119,7 @@
           "destination": "2018-03-trainingslager-mallorca",
           "file": "bilder/2018-03-trainingslager-mallorca/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -129,7 +129,7 @@
           "destination": "2018-06-lauingen-triathlon",
           "file": "bilder/2018-06-lauingen-triathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -139,7 +139,7 @@
           "destination": "2018-07-challenge-roth",
           "file": "bilder/2018-07-challenge-roth/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -149,7 +149,7 @@
           "destination": "2018-08-allgäu-triathlon",
           "file": "bilder/2018-08-allgäu-triathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -159,7 +159,7 @@
           "destination": "2018-10-frankfurt-marathon",
           "file": "bilder/2018-10-frankfurt-marathon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -169,7 +169,7 @@
           "destination": "2018-12-silvesterlauf",
           "file": "bilder/2018-12-silvesterlauf/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -179,7 +179,7 @@
           "destination": "2019-03-trainingslager-mallorca",
           "file": "bilder/2019-03-trainingslager-mallorca/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -189,7 +189,7 @@
           "destination": "2019-05-albtraum-100",
           "file": "bilder/2019-05-albtraum-100/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -199,7 +199,7 @@
           "destination": "2019-05-ironman-st.-pölten",
           "file": "bilder/2019-05-ironman-st.-pölten/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -209,7 +209,7 @@
           "destination": "2019-05-trail-running-festival-innsbruck",
           "file": "bilder/2019-05-trail-running-festival-innsbruck/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -219,7 +219,7 @@
           "destination": "2019-06-lauf-geht’s",
           "file": "bilder/2019-06-lauf-geht’s/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -229,7 +229,7 @@
           "destination": "2019-06-lauingen-triathlon",
           "file": "bilder/2019-06-lauingen-triathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -239,7 +239,7 @@
           "destination": "2019-06-vereinsmeisterschaften",
           "file": "bilder/2019-06-vereinsmeisterschaften/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -249,7 +249,7 @@
           "destination": "2019-06-schiller-schülertriathlon",
           "file": "bilder/2019-06-schiller-schülertriathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -259,7 +259,7 @@
           "destination": "2019-07-ellwangen-triathlon",
           "file": "bilder/2019-07-ellwangen-triathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -269,7 +269,7 @@
           "destination": "2019-07-maintal-ultra-marathon",
           "file": "bilder/2019-07-maintal-ultra-marathon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -279,7 +279,7 @@
           "destination": "2019-08-allgäu-triathlon",
           "file": "bilder/2019-08-allgäu-triathlon/index.html",
           "title": "Bilder",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
           "children": [
           ]
@@ -291,7 +291,7 @@
       "destination": "impressum-datenschutz",
       "file": "impressum-datenschutz/index.html",
       "title": "Impressum und Datenschutz",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Impressum",
       "children": [
       ]
@@ -301,7 +301,7 @@
       "destination": "intern",
       "file": "intern/index.html",
       "title": "Intern",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Intern",
       "children": [
       ]
@@ -311,7 +311,7 @@
       "destination": "lauftreff",
       "file": "lauftreff/index.html",
       "title": "Unser Lauftreff",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Lauftreff",
       "children": [
       ]
@@ -321,7 +321,7 @@
       "destination": "leichtathletik",
       "file": "leichtathletik/index.html",
       "title": "Unser Lauftreff",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Leichtathletik",
       "children": [
       ]
@@ -331,7 +331,7 @@
       "destination": "leitbild",
       "file": "leitbild/index.html",
       "title": "Leitbild",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Leitbild",
       "children": [
       ]
@@ -341,7 +341,7 @@
       "destination": "silvesterlauf",
       "file": "silvesterlauf/index.html",
       "title": "Der Silvesterlauf",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Silvesterlauf",
       "children": [
       ]
@@ -351,7 +351,7 @@
       "destination": "sponsoren",
       "file": "sponsoren/index.html",
       "title": "Unsere Sponsoren",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Sponsoren",
       "children": [
       ]
@@ -361,7 +361,7 @@
       "destination": "team",
       "file": "team/index.html",
       "title": "Das Team",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Das Test",
       "children": [
       ]
@@ -371,7 +371,7 @@
       "destination": "triathlon",
       "file": "triathlon/index.html",
       "title": "Triathlon",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Triathlon",
       "children": [
         {
@@ -379,7 +379,7 @@
           "destination": "laufen",
           "file": "triathlon/laufen/index.html",
           "title": "Laufen",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Laufen",
           "children": [
             {
@@ -387,7 +387,7 @@
             "destination": "trainingsplan",
             "file": "triathlon/laufen/trainingsplan/index.html",
             "title": "Laufen",
-            "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
             "description": "Laufen",
             "children": [
             ]
@@ -399,7 +399,7 @@
           "destination": "mobi-stabi-training",
           "file": "triathlon/mobi-stabi-training/index.html",
           "title": "mobi-stabi-training",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "mobi-stabi-training",
           "children": [
             {
@@ -407,7 +407,7 @@
             "destination": "trainingsplan",
             "file": "triathlon/mobi-stabi-training/trainingsplan/index.html",
             "title": "mobi-stabi-training",
-            "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
             "description": "mobi-stabi-training",
             "children": [
             ]
@@ -419,7 +419,7 @@
           "destination": "radfahren",
           "file": "triathlon/radfahren/index.html",
           "title": "radfahren",
-          "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "radfahren",
           "children": [
             {
@@ -427,7 +427,7 @@
             "destination": "trainingsplan",
             "file": "triathlon/radfahren/trainingsplan/index.html",
             "title": "radfahren",
-            "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
             "description": "radfahren",
             "children": [
             ]
@@ -439,7 +439,7 @@
       "destination": "schwimmen",
       "file": "triathlon/schwimmen/index.html",
       "title": "schwimmen",
-      "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "schwimmen",
       "children": [
         {
@@ -447,7 +447,7 @@
         "destination": "trainingsplan",
         "file": "triathlon/schwimmen/trainingsplan/index.html",
         "title": "schwimmen",
-        "photoUrl": "http://svm-dh.herokuapp.com/assets/images/running1.jpg",
+        "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
         "description": "schwimmen",
         "children": [
         ]

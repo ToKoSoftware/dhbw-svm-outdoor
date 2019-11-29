@@ -7,6 +7,16 @@
   "description": "Test",
   "children": [
     {
+      "name": "design",
+      "destination": "design",
+      "file": "design/index.html",
+      "title": "Design",
+      "photoUrl": "/assets/images/running1.jpg",
+      "description": "",
+      "children": [
+      ]
+    },
+    {
       "name": "Aktuelles",
       "destination": "aktuelles",
       "file": "aktuelles/index.html",
@@ -18,16 +28,6 @@
           "name": "Aktuelles",
           "destination": "2019-03-trainingslager-mallorca",
           "file": "aktuelles/2019-03-trainingslager-mallorca/index.html",
-          "title": "Aktuelles",
-          "photoUrl": "/assets/images/running1.jpg",
-          "description": "Aktuelles",
-          "children": [
-          ]
-        },
-        {
-          "name": "Aktuelles",
-          "destination": "2019-04-laufangebot-–-alles-neu-macht-der-mai",
-          "file": "aktuelles/2019-04-laufangebot-–-alles-neu-macht-der-mai/index.html",
           "title": "Aktuelles",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Aktuelles",
@@ -98,16 +98,6 @@
           "name": "Aktuelles",
           "destination": "2019-08-allgäu-triathlon",
           "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
-          "title": "Aktuelles",
-          "photoUrl": "/assets/images/running1.jpg",
-          "description": "Aktuelles",
-          "children": [
-          ]
-        },
-        {
-          "name": "Aktuelles",
-          "destination": "2019-09-laufangebot-winter",
-          "file": "aktuelles/2019-09-laufangebot-winter/index.html",
           "title": "Aktuelles",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Aktuelles",
@@ -248,6 +238,16 @@
           "name": "Bilder",
           "destination": "2019-06-vereinsmeisterschaften",
           "file": "bilder/2019-06-vereinsmeisterschaften/index.html",
+          "title": "Bilder",
+          "photoUrl": "/assets/images/running1.jpg",
+          "description": "Bilder",
+          "children": [
+          ]
+        },
+        {
+          "name": "Bilder",
+          "destination": "2019-06-schiller-schülertriathlon",
+          "file": "bilder/2019-06-schiller-schülertriathlon/index.html",
           "title": "Bilder",
           "photoUrl": "/assets/images/running1.jpg",
           "description": "Bilder",
@@ -616,8 +616,10 @@
         ]
         }
       ]
+
     
 }
       ]} 
        ]}  
        
+

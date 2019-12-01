@@ -126,16 +126,6 @@
         },
         {
           "name": "Bilder",
-          "destination": "2018-06-lauingen-triathlon",
-          "file": "bilder/2018-06-lauingen-triathlon/index.html",
-          "title": "Bilder",
-          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-          "description": "Bilder",
-          "children": [
-          ]
-        },
-        {
-          "name": "Bilder",
           "destination": "2018-07-challenge-roth",
           "file": "bilder/2018-07-challenge-roth/index.html",
           "title": "Bilder",

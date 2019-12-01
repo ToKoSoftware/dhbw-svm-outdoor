@@ -142,6 +142,7 @@ a {
     float: left;
     width: 100%;
     height: calc(100vh - 100px);
+    min-height: 500px;
 }
 
 /*

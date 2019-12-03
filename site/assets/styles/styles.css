@@ -395,6 +395,28 @@ a {
     grid-gap: 30px;
     grid-template-columns: 25% auto auto;
 }
+/*
+    activity content:
+    Haupt Textinhaltscontainer, Darstellung als CSS Grid mit mehr Abstand nach oben 
+*/
+.activity-content {
+    display: grid;
+    margin-top: 30px;
+    grid-gap: 30px;
+    grid-template-columns: auto 25%;
+}
+
+.activity-content .content{
+    padding: 0 20px;
+}
+/*
+    acativity content trainer:
+    Trainer Karte, um Die Trainer einer Abteilung Darzustellen
+*/
+.activity-content .trainer{
+    border-left: 1px solid #bdc3c7;
+    padding: 0 20px;
+}
 
 /* 
     main content sticky:
@@ -555,6 +577,24 @@ a {
     .container.distance {
         margin-top: 0;
     }
+    .activity-content {
+        column-gap: normal;
+        grid-template-columns: none;
+    }
+    
+    .activity-content .content{
+        grid-row: auto;
+        grid-column: 1/2;
+        padding: 0;
+        border: none;
+    }
+    .activity-content .trainer{
+        grid-row: auto;
+        grid-column: 1/2;
+        padding: 0;
+        border: none;
+    }
+
     .main-content {
         column-gap: normal;
     }

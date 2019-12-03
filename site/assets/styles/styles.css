@@ -1,4 +1,12 @@
-/*  
+/**
+    Style conventions
+    - keine Datei URLs falls nicht notwendig
+    - class-names mit -, nicht _ oder CamelCase
+    - modifier (Zusatzklassen) werden class-name--modifer genannt ( - - )
+ */
+
+
+/*
     Grundformatierung von HTML und Body 
 */
 html, body {

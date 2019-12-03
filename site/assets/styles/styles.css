@@ -47,6 +47,12 @@ a {
     margin: auto;
     padding: 0 15px 15px 15px;
 }
+/*
+    Für Seiten mit wenig text
+ */
+.container--slim {
+    max-width: 600px;
+}
 
 .row {
     width: 100%;

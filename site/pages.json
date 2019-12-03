@@ -106,6 +106,16 @@
         },
         {
           "name": "Aktuelles",
+          "destination": "2019-09-laufangebot-winter",
+          "file": "aktuelles/2019-09-laufangebot-winter/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
           "destination": "2019-08-allgäu-triathlon",
           "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
           "title": "Aktuelles",
@@ -383,15 +393,15 @@
           "description": "Laufen",
           "children": [
             {
-            "name": "Laufen",
-            "destination": "trainingsplan",
-            "file": "triathlon/laufen/trainingsplan/index.html",
-            "title": "Laufen",
-            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-            "description": "Laufen",
-            "children": [
-            ]
-          }
+              "name": "Laufen",
+              "destination": "trainingsplan",
+              "file": "triathlon/laufen/trainingsplan/index.html",
+              "title": "Laufen",
+              "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+              "description": "Laufen",
+              "children": [
+              ]
+            }
           ]
         },
         {
@@ -403,15 +413,15 @@
           "description": "mobi-stabi-training",
           "children": [
             {
-            "name": "mobi-stabi-training",
-            "destination": "trainingsplan",
-            "file": "triathlon/mobi-stabi-training/trainingsplan/index.html",
-            "title": "mobi-stabi-training",
-            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-            "description": "mobi-stabi-training",
-            "children": [
-            ]
-          }
+              "name": "mobi-stabi-training",
+              "destination": "trainingsplan",
+              "file": "triathlon/mobi-stabi-training/trainingsplan/index.html",
+              "title": "mobi-stabi-training",
+              "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+              "description": "mobi-stabi-training",
+              "children": [
+              ]
+            }
           ]
         },
         {
@@ -423,38 +433,38 @@
           "description": "radfahren",
           "children": [
             {
-            "name": "radfahren",
-            "destination": "trainingsplan",
-            "file": "triathlon/radfahren/trainingsplan/index.html",
-            "title": "radfahren",
-            "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-            "description": "radfahren",
-            "children": [
-            ]
-          }
-      ]
-    },
-    {
-      "name": "schwimmen",
-      "destination": "schwimmen",
-      "file": "triathlon/schwimmen/index.html",
-      "title": "schwimmen",
-      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-      "description": "schwimmen",
-      "children": [
+              "name": "radfahren",
+              "destination": "trainingsplan",
+              "file": "triathlon/radfahren/trainingsplan/index.html",
+              "title": "radfahren",
+              "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+              "description": "radfahren",
+              "children": [
+              ]
+            }
+          ]
+        },
         {
-        "name": "schwimmen",
-        "destination": "trainingsplan",
-        "file": "triathlon/schwimmen/trainingsplan/index.html",
-        "title": "schwimmen",
-        "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-        "description": "schwimmen",
-        "children": [
-        ]
+          "name": "schwimmen",
+          "destination": "schwimmen",
+          "file": "triathlon/schwimmen/index.html",
+          "title": "schwimmen",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "description": "schwimmen",
+          "children": [
+            {
+              "name": "schwimmen",
+              "destination": "trainingsplan",
+              "file": "triathlon/schwimmen/trainingsplan/index.html",
+              "title": "schwimmen",
+              "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+              "description": "schwimmen",
+              "children": [
+              ]
+            }
+          ]
         }
       ]
     }
   ]
-  }
-]
 }

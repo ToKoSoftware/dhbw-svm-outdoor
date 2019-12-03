@@ -1,0 +1,48 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Thema}{3}%
+\contentsline {section}{\numberline {2}Organisation}{3}%
+\contentsline {subsection}{\numberline {2.1}Projektmanagement}{4}%
+\contentsline {subsubsection}{\numberline {2.1.1}Projektplan}{4}%
+\contentsline {paragraph}{Kickoff-Meeting}{4}%
+\contentsline {paragraph}{Analyse}{4}%
+\contentsline {paragraph}{Werkzeugkasten}{4}%
+\contentsline {paragraph}{Meilenstein Meeting}{4}%
+\contentsline {paragraph}{Implementierung}{4}%
+\contentsline {paragraph}{Kommentieren}{5}%
+\contentsline {paragraph}{Pilotieren}{5}%
+\contentsline {paragraph}{Rollout/Präsentation}{5}%
+\contentsline {subsubsection}{\numberline {2.1.2}Zeitplan}{5}%
+\contentsline {section}{\numberline {3}Aufbau und Struktur}{7}%
+\contentsline {subsection}{\numberline {3.1}Erste Skizzen}{7}%
+\contentsline {subsection}{\numberline {3.2}Design}{9}%
+\contentsline {subsection}{\numberline {3.3}Statisch - unser Verständnis}{9}%
+\contentsline {subsection}{\numberline {3.4}Seitenaufbau}{10}%
+\contentsline {subsubsection}{\numberline {3.4.1}Header}{10}%
+\contentsline {subsubsection}{\numberline {3.4.2}Hero}{10}%
+\contentsline {subsubsection}{\numberline {3.4.3}Inhaltsbereich}{10}%
+\contentsline {paragraph}{Sidebar}{10}%
+\contentsline {paragraph}{Text}{10}%
+\contentsline {subsubsection}{\numberline {3.4.4}Footer}{10}%
+\contentsline {section}{\numberline {4}"Werkzeugkasten"}{10}%
+\contentsline {paragraph}{Container}{10}%
+\contentsline {paragraph}{Text}{11}%
+\contentsline {paragraph}{Sidebar}{11}%
+\contentsline {paragraph}{Buttons}{11}%
+\contentsline {paragraph}{(Werbe-)Blöcke}{11}%
+\contentsline {section}{\numberline {5}Entwicklung}{11}%
+\contentsline {subsection}{\numberline {5.1}Eingesetzte Technologien}{11}%
+\contentsline {subsubsection}{\numberline {5.1.1}Server}{11}%
+\contentsline {subsubsection}{\numberline {5.1.2}Git und GitHub}{11}%
+\contentsline {subsubsection}{\numberline {5.1.3}Deployment}{12}%
+\contentsline {subsection}{\numberline {5.2}Entwicklungsprozess}{12}%
+\contentsline {subsubsection}{\numberline {5.2.1}Planung}{12}%
+\contentsline {subsubsection}{\numberline {5.2.2}Umsetzung}{13}%
+\contentsline {subsubsection}{\numberline {5.2.3}Überprüfung}{13}%
+\contentsline {subsection}{\numberline {5.3}Optimierung}{14}%
+\contentsline {section}{\numberline {6}Umsetzung}{14}%
+\contentsline {subsection}{\numberline {6.1}Team}{14}%
+\contentsline {subsection}{\numberline {6.2}Aktuelles}{15}%
+\contentsline {subsection}{\numberline {6.3}Triathlon}{15}%
+\contentsline {section}{\numberline {7}Änderbarkeit und Wartungsfähigkeit}{16}%
+\contentsline {section}{\numberline {8}Funktionalität und Nutzerfreundlichkeit}{17}%
+\contentsline {section}{\numberline {9}Fazit}{17}%

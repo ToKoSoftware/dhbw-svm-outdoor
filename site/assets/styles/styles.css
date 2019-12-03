@@ -433,6 +433,20 @@ a {
     padding: 0 20px;
 }
 
+/**
+    h1, h2, ... wird für links für Seitensprünge verwendet
+    durch den fixen header verschwinden diese allerdings unter diesem
+    Nachfolgender trick ermöglicht das Springen zur richtigen Stelle
+ */
+.main-content .content h1,
+.main-content .content h2,
+.main-content .content h3,
+.main-content .content h4,
+.main-content .content h5 {
+    margin-top: -120px;
+    padding-top: 120px;
+}
+
 .footer .footer-item.love-notice {
     text-align: right;
     padding-top: 25px;
@@ -479,19 +493,6 @@ a {
     padding: 30px 15px;
 }
 
-/*
-    Tabellendarstellung
-*/
-.table {
-    border: 0px none;
-    border-spacing: 0px;
-    border-collapse: collapse;
-}
-
-.table td, .table th {
-    border: 1px solid #000;
-    padding: 4px;
-}
 .value-grid {
     padding: 0;
 }
@@ -587,6 +588,35 @@ a {
         justify-self: center;
     }
 }
+/*
+    DARK MODE
+    wird automatisch ausgewählt
+ */
+@media (prefers-color-scheme: dark) {
+    html,
+    body,
+    .header {
+        background: #000;
+        color: #fff;
+        border-bottom: #bdc3c7;
+    }
+    a:not(.button) {
+        color: #FCC509;
+    }
+    .header li a {
+        color: #fff;
+    }
+    .main-content .sticky{
+        background: #5a5a5a;
+    }
 
+    .main-content .sticky li:hover a,
+    .main-content .sticky a:hover{
+        color: #fff;
+    }
 
+    .footer {
+        border-top: 1px solid #FCC509;
+    }
+}
 

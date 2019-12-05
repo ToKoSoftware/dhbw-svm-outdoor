@@ -35,7 +35,7 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Git und GitHub}{11}%
 \contentsline {subsubsection}{\numberline {5.1.3}Deployment}{12}%
 \contentsline {subsection}{\numberline {5.2}Entwicklungsprozess}{12}%
-\contentsline {subsubsection}{\numberline {5.2.1}Planung}{12}%
+\contentsline {subsubsection}{\numberline {5.2.1}Planung}{13}%
 \contentsline {subsubsection}{\numberline {5.2.2}Umsetzung}{13}%
 \contentsline {subsubsection}{\numberline {5.2.3}Überprüfung}{13}%
 \contentsline {subsection}{\numberline {5.3}Optimierung}{14}%

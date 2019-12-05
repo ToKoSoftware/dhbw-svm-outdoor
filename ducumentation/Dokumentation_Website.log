@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  30 NOV 2019 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  5 DEC 2019 23:28
 entering extended mode
 **./Dokumentation_Website.tex
 (Dokumentation_Website.tex
@@ -767,24 +767,39 @@ Package pdftex.def Info: Home_Outdoor.jpg  used on input line 132.
 (pdftex.def)             Requested size: 199.16928pt x 298.12248pt.
 
 [9 <./Home_Outdoor.jpg>] [10]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <8> not available
+(Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
+line 184.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 184.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <10> not available
+(Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
+line 184.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 184.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <7> not available
+(Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
+line 184.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 184.
 <git.png, id=58, 1166.3575pt x 708.6475pt>
 File: git.png Graphic file (type png)
 <use git.png>
 Package pdftex.def Info: git.png  used on input line 191.
 (pdftex.def)             Requested size: 466.53474pt x 283.45398pt.
- [11]
+ [11] [12 <./git.png>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/it' in size <12> not available
 (Font)              Font shape `T1/Roboto-LF/bold/it' tried instead on input li
 ne 210.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/it' will be
 (Font)              scaled to size 12.0pt on input line 210.
- [12 <./git.png>]
-<Bewertung.png, id=66, 154.176pt x 100.57574pt>
+ [13]
+<Bewertung.png, id=71, 154.176pt x 100.57574pt>
 File: Bewertung.png Graphic file (type png)
 <use Bewertung.png>
 Package pdftex.def Info: Bewertung.png  used on input line 229.
 (pdftex.def)             Requested size: 154.1756pt x 100.57549pt.
- [13] [14 <./Bewertung.png>] [15]
+ [14 <./Bewertung.png>] [15]
 <Kommentierung.png, id=78, 404.10976pt x 460.72125pt>
 File: Kommentierung.png Graphic file (type png)
 <use Kommentierung.png>
@@ -799,13 +814,13 @@ Package pdftex.def Info: Home_Desktop.jpg  used on input line 268.
  [17 <./Home_Desktop.jpg>]
 (Dokumentation_Website.aux) ) 
 Here is how much of TeX's memory you used:
- 7578 strings out of 492450
- 119096 string characters out of 3115799
- 216142 words of memory out of 3000000
- 11645 multiletter control sequences out of 15000+200000
- 82536 words of font info for 146 fonts, out of 3000000 for 9000
+ 7606 strings out of 492450
+ 119731 string characters out of 3115799
+ 217187 words of memory out of 3000000
+ 11668 multiletter control sequences out of 15000+200000
+ 98757 words of font info for 155 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,58p,768b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,58p,785b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Dominik privat/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/enc/dvips/roboto/rbto_hsw3yt.enc}<C:/Users/Dominik privat/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Users
@@ -813,9 +828,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Users
 oto-BoldItalic.pfb><C:/Users/Dominik privat/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/google/roboto/Roboto-Italic.pfb><C:/Users/Dominik privat/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/google/roboto/Roboto-Regular.pfb>
-Output written on Dokumentation_Website.pdf (17 pages, 3451596 bytes).
+Output written on Dokumentation_Website.pdf (17 pages, 3452311 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16947 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 18995 words of extra memory for PDF output out of 20736 (max. 10000000)
 

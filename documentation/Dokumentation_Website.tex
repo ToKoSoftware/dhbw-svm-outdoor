@@ -23,7 +23,7 @@
 \includegraphics[scale=1.2]{Startseite.png}
 \end{figure}
 \vspace{2cm}}
-\author{\textbf{Enrico Bachus, Urs Egenmayer, Lisa Fremdt, Leonie Knödler,}\\ \textbf{Tomas Kostadinov, Dominik Ruf}}
+\author{\textbf{Enrico Bachus, Urs Egenberger, Lisa Fremdt, Leonie Knödler,}\\ \textbf{Tomas Kostadinov, Dominik Ruf}}
 \date{\vspace{2cm} \textbf{9.12.2019}}
 
 \end{titlepage}
@@ -149,7 +149,6 @@ Ganz links findet sich als kleines Bild das Logo des Vereins wieder.
 \subsubsection{Hero}
 Der \textit{Hero} ist das jeweilige Titelbild jeder Unterseite. Hier bekommt der Besucher den wichtigen ersten Eindruck der Seite.\\
 Innerhalb dieses Heros bekommt der Besucher außerdem direkt erste Informationen und wichtige Fakten, Links und Termine angezeigt.\\
-BEISPIELBILD
 \subsubsection{Inhaltsbereich}
 Jeder \textit{Inhaltsbereich} der Seiten gliedert sich gleich in
 Sidebar und Text.
@@ -158,14 +157,14 @@ Hier werden immer kurz die Überpunkte der jeweiligen Seite dargestellt, um eine
 \paragraph{Text}
 Hier wird der jeweilige vorgegebene Text aufgearbeitet und dargestellt. Auch Tabellen und Listen finden hier Platz.
 \subsubsection{Footer}
-In der Fußzeile, dem \textit{Footer}, finden sich Links zum Impressum und zur Datenschutzerklärung, sowie Links zu den Unterseiten unserer Webseite. Er ist schlicht mit weißer Schrift auf schwarzem Hintergrund gehalten und bietet dem Besucher die außerdem Möglichkeit direkt zum Anfang der Seite zu springen.
+In der Fußzeile, dem \textit{Footer}, finden sich Links zum Impressum und zur Datenschutzerklärung, sowie Links zu den Unterseiten unserer Webseite. Er ist schlicht mit weißer Schrift auf schwarzem Hintergrund gehalten und bietet dem Besucher außerdem die Möglichkeit direkt zum Anfang der Seite zu springen.
 \section{"Werkzeugkasten"}
-In unserem sogenannten \textit{Werkzeugkasten} \emph{(elements.html)} definieren wir unsere Grundbausteine der Webseiten, von denen einige hier kurz näher beleuchtet werden sollen. Wir haben einen solchen erstellt, um, wie bereits oben genannt, Einheitlichkeit zu schaffen und um den Einsteigern in unserer Gruppe das Arbeiten mit HTML zu erleichtern.
+In unserem sogenannten \textit{Werkzeugkasten} \emph{(elements.html)} definieren wir unsere Grundbausteine der Webseiten, von denen einige hier kurz näher beleuchtet werden sollen. Wir haben einen solchen erstellt, um Einheitlichkeit, wie bereits oben genannt, zu schaffen und um den Einsteigern in unserer Gruppe das Arbeiten mit HTML zu erleichtern.
 \paragraph{Container}
 Jeder Content, egal ob Text im Hero, Text, Sidebar, Inhalt des Headers oder des Footer, wird immer in einen sogenannten \textit{Container} gepackt.
 Ein solcher Container ist immer maximal 1200 Pixel breit. So erreichen wir ein einheitliches und aufgeräumtes Erscheinungsbild der Webseite.
 \paragraph{Text}
-Wir haben uns entschieden den \textit{Text} und die Sidebar in einem dreigeteilten Grid  anzuordnen. Ein Grid kann man sich hierbei vorstellen als Gitter, beziehungsweise Tabelle, bei dem Teile für bestimmte Inhalte reserviert sind. Der Text nimmt hierbei die letzten, rechten zwei Drittel ein.
+Wir haben uns entschieden den \textit{Text} und die Sidebar in einem dreigeteilten Grid  anzuordnen. Ein Grid kann man sich hierbei als Gitter, beziehungsweise Tabelle, vorstellen  bei dem Teile für bestimmte Inhalte reserviert sind. Der Text nimmt hierbei die letzten, rechten zwei Drittel ein.
 \paragraph{Sidebar}
 Die \textit{Sidebar} ist, wie bereits im Kapitel drei beschrieben, für die Navigation auf der Seite selbst zuständig. Angezeigt wird sie immer im ersten, linken Drittel des oben genannten Grids.
 \paragraph{Buttons}
@@ -181,21 +180,21 @@ Auch dieser Baustein ist in einem Grid definiert, das jedoch einen Mindestabstan
 \section{Entwicklung}
 \subsection{Eingesetzte Technologien}
 \subsubsection{Server}
-Für die serverseitige Software haben wir uns bewusst gegen XAMPP entschieden, und uns für den Server ExpressJS\footnote{\label{foot:1}Siehe http://expressjs.com/de} entschieden. Gründe hierfür waren unter anderem die weitaus einfachere, einheitliche Konfiguration in einer Datei, welche von den Teammitgliedern nicht geändert werden muss und die erheblich höhere Antwortgeschwindigkeit.
+Für die serverseitige Software haben wir uns bewusst gegen XAMPP entschieden, und uns für den Server ExpressJS\footnote{\label{foot:1} http://expressjs.com/de} entschieden. Gründe hierfür waren unter anderem die weitaus einfachere, einheitliche Konfiguration in einer Datei, welche von den Teammitgliedern nicht geändert werden muss und die erheblich höhere Antwortgeschwindigkeit.
 \subsubsection{Git und GitHub}
-Um effizient und koordiniert in einer Gruppe ein Softwareprodukt entwickeln zu können, haben wir Git bzw. den Dienstleister GitHub\footnote{\label{foot:2}Siehe Siehe http://github.com} als Softwaretool in den Entwicklungsprozess aufgenommen.\\
+Um effizient und koordiniert in einer Gruppe ein Softwareprodukt entwickeln zu können, haben wir Git bzw. den Dienstleister GitHub\footnote{\label{foot:2} http://github.com} als Softwaretool in den Entwicklungsprozess aufgenommen.\\
 Git ermöglicht es, Zwischenstände von Quellcode einer Software zu speichern und dezentral auf einem oder mehreren Servern anderen Teilnehmern den Zugang zu ermöglichen, während auf dem lokalen Gerät weitergearbeitet werden kann.\\
 Die Software nutzt dafür sogenannten \textit{Commits} (Zwischenstände) welche manuell vom Nutzer auf einem sogenannten \textit{Branch} erstellt werden. \\
 Ein \textit{Branch} kann dabei als Arbeitsumgebung bzw. Zeitstrahl eines Nutzers verstanden werden, welcher mit einem eindeutigen Namen versehen ist. Dieser enthält jeweils eine Kopie des Gesamtprojektes.
+Git ermöglicht es, jederzeit zu einem vorherigen Stand zurückzukehren, falls die Entwicklung in eine falsche Richtung gegangen ist oder ein Teil unabsichtlich gelöscht oder geändert wurde.\\
+GitHub erweitert Git um weitere Funktionen und ermöglicht eine Partizipation aller Gruppenmitglieder durch die Möglichkeit der Erstellung von Anmerkungen, Kommentaren und Verbesserungsvorschlägen. 
 \begin{figure}[!htbp]
 	\includegraphics[scale=0.4]{git.png}
 	\caption{Git - Der Entwicklungsverlauf des Projektes, wobei Branches als Linie und Commits als Punkt/Zeile dargestellt wurden.}
 	\label{img:git}
 \end{figure}
-Git ermöglicht es, jederzeit zu einem vorherigen Stand zurückzukehren, falls die Entwicklung in eine falsche Richtung gegangen ist oder ein Teil unabsichtlich gelöscht oder geändert wurde.\\
-GitHub erweitert Git um weitere Funktionen und ermöglicht eine Partizipation aller Gruppenmitglieder durch die Möglichkeit der Erstellung von Anmerkungen, Kommentaren und Verbesserungsvorschlägen. 
 \subsubsection{Deployment}
-Um die Entwicklung zu vereinheitlichen und schnell sichtbare Ergebnisse zu liefern, haben wir uns dafür entschieden, automatisches Deployment mit Heroku\footnote{\label{foot:3}https://heroku.com} zu integrieren.\\
+Um die Entwicklung zu vereinheitlichen und schnell sichtbare Ergebnisse zu liefern, haben wir uns dafür entschieden, automatisches Deployment mit Heroku\footnote{\label{foot:3} https://heroku.com} zu integrieren.\\
 Dabei wird der jeweils aktuellste Stand des Projektes isoliert und automatisiert auf einem eigenen virtuellen Server bereitgestellt. Für jeden Branch, für den ein Pullrequest (siehe weiter unten) angelegt wurde, wird ebenfalls automatisch ein neuer virtueller Server aufgesetzt. So können klar abgegrenzt jeweils die Änderungen kontrolliert werden, ohne jeweils den Quellcode lokal herunterladen und ausführen zu müssen.
 
 \subsection{Entwicklungsprozess}
@@ -230,12 +229,12 @@ Die komplette Webseite wurde darauf optimiert, auf möglichst vielen Endgeräten
 	\caption{Bewertung via PageSpeed Insights}
 	\label{img:Bewertung}
 \end{figure}
-Des weiteren wurde die Webseite für Suchmaschinen wie Google optimiert. Auf dem von Google bereitgestellten Testtool \dq PageSpeed Insights\dq \footnote{\label{foot:4}https://developers.google.com/speed/pagespeed/insights} erhielt unsere Website 100 von 100 möglichen Punkten (d.h. die Bestnote, siehe Abb. 2) wobei Ladezeiten, Design und weitere Optimierungen automatisiert bewertet wurden. Zum Vergleich: die Webseite der Dualen Hochschule Heidenheim erhielt lediglich 60 von 100 Punkten. \\
+Des weiteren wurde die Webseite für Suchmaschinen wie Google optimiert. Auf dem von Google bereitgestellten Testtool \dq PageSpeed Insights\dq \footnote{\label{foot:4} https://developers.google.com/speed/pagespeed/insights} erhielt unsere Website 100 von 100 möglichen Punkten (d.h. die Bestnote, siehe Abb. 2) wobei Ladezeiten, Design und weitere Optimierungen automatisiert bewertet wurden. Zum Vergleich: die Webseite der Dualen Hochschule Heidenheim erhielt lediglich 60 von 100 Punkten. \\
 Diese Bewertung ist ein großer Faktor in der Bewertung der Relevanz der Seite für Suchmaschinen und somit maßgeblich ausschlaggebend für den Listenplatz auf der Ergebnisseite. \\
 Weitere Optimierungen der Website sind ein sich mit dem Hell-\/Dunkelmodus des Betriebssystems anpassender Dunkelmodus der Website und Optimierungen für eine bessere Darstellung der Website in den sozialen Netzwerken mithilfe des Open Graph Protokoll\footnote{\label{foot:5} https://developers.facebook.com/docs/sharing/webmasters}.
 
 \section{Umsetzung}
-Hier beschreiben wir die Umsetzung einzelner Bereiche und beantworten kurz warum was wie umgesetzt wurde.
+Hier beschreiben wir die Umsetzung einzelner ausgewählter Bereiche und beantworten kurz warum was wie umgesetzt wurde.
 \subsection{Team}
 Da, wie bereits beschrieben, Header und Footer immer das selbe Aussehen und die selben Funktionalitäten haben, beschäftigt sich der nachfolgende Abschnitt nur mit der Umsetzung und Gestaltung der restlichen Seiten.\\
 Für die Startseite haben wir uns für ein freundliches, familiäres Foto für den Hero entschieden, das den Aspekt \dq Team\dq \ unterstreicht.

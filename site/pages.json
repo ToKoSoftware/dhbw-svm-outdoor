@@ -96,6 +96,16 @@
         },
         {
           "name": "Aktuelles",
+          "destination": "2019-09-laufangebot-winter",
+          "file": "aktuelles/2019-09-laufangebot-winter/index.html",
+          "title": "Aktuelles",
+          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
+          "description": "Aktuelles",
+          "children": [
+          ]
+        },
+        {
+          "name": "Aktuelles",
           "destination": "2019-08-allgäu-triathlon",
           "file": "aktuelles/2019-08-allgäu-triathlon/index.html",
           "title": "Aktuelles",
@@ -118,16 +128,6 @@
           "name": "Bilder",
           "destination": "2018-03-trainingslager-mallorca",
           "file": "bilder/2018-03-trainingslager-mallorca/index.html",
-          "title": "Bilder",
-          "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-          "description": "Bilder",
-          "children": [
-          ]
-        },
-        {
-          "name": "Bilder",
-          "destination": "2018-06-lauingen-triathlon",
-          "file": "bilder/2018-06-lauingen-triathlon/index.html",
           "title": "Bilder",
           "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
           "description": "Bilder",
@@ -586,5 +586,4 @@
   ]
   }
 ]
-} 
-       
+}

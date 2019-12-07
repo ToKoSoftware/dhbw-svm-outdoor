@@ -1,4 +1,12 @@
-/*  
+/**
+    Style conventions
+    - keine Datei URLs falls nicht notwendig
+    - class-names mit -, nicht _ oder CamelCase
+    - modifier (Zusatzklassen) werden class-name--modifer genannt ( - - )
+ */
+
+
+/*
     Grundformatierung von HTML und Body 
 */
 html, body {
@@ -38,6 +46,13 @@ a {
     width: 100%;
     margin: auto;
     padding: 0 15px 15px 15px;
+}
+
+/*
+    Für Seiten mit wenig text
+ */
+.container--slim {
+    max-width: 600px;
 }
 
 .row {
@@ -142,6 +157,7 @@ a {
     float: left;
     width: 100%;
     height: calc(100vh - 100px);
+    min-height: 500px;
 }
 
 /*
@@ -454,6 +470,20 @@ a {
     padding: 0 20px;
 }
 
+/**
+    h1, h2, ... wird für links für Seitensprünge verwendet
+    durch den fixen header verschwinden diese allerdings unter diesem
+    Nachfolgender trick ermöglicht das Springen zur richtigen Stelle
+ */
+.main-content .content h1,
+.main-content .content h2,
+.main-content .content h3,
+.main-content .content h4,
+.main-content .content h5 {
+    margin-top: -120px;
+    padding-top: 120px;
+}
+
 .footer .footer-item.love-notice {
     text-align: right;
     padding-top: 25px;
@@ -465,29 +495,38 @@ a {
 */
 .blocks {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
+/**
+    Großer block
+    aufspannen von 1 bis 2
+ */
+.blocks .block-item.block-item--big {
+    grid-column: span 2;
+}
+
 .blocks.blocks--even {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .blocks .block-inner {
-    float: left;
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4)5%, #000);
-    display: grid;
-    align-content: end;
+    background: linear-gradient(rgba(0, 0, 0, 0.4) 5%, #000);
+    display: flex;
 }
 
 .blocks .block-item {
+    position: relative;
     color: white;
     min-height: 300px;
 }
 
 .blocks .block-description {
+    margin-top: auto;
     transition: 500ms;
     padding: 15px;
 }
@@ -500,22 +539,10 @@ a {
     padding: 30px 15px;
 }
 
-/*
-    Tabellendarstellung
-*/
-.table {
-    border: 0px none;
-    border-spacing: 0px;
-    border-collapse: collapse;
-}
-
-.table td, .table th {
-    border: 1px solid #000;
-    padding: 4px;
-}
 .value-grid {
     padding: 0;
 }
+
 .value-grid li.item {
     padding-bottom: 10px;
     list-style: none;
@@ -535,7 +562,7 @@ a {
 
 .value-grid .key-title {
     font-weight: bold;
-    display:block;
+    display: block;
     padding-bottom: 10px;
 }
 
@@ -555,28 +582,35 @@ a {
     .header {
         position: relative;
     }
+
     .header .header-navigation ul {
         margin: 0;
         padding: 0;
     }
+
     .header .header-navigation ul li {
         width: 100%;
     }
+
     .header .header-logo {
         justify-self: center;
         grid-row: 1/2;
         grid-column: 1/3;
     }
+
     .header .header-navigation {
         grid-row: 2/2;
         grid-column: 1/3;
     }
+
     .hero .hero-inner {
         grid-template-columns: 1fr;
     }
+
     .container.distance {
         margin-top: 0;
     }
+  
     .activity-content {
         column-gap: normal;
         grid-template-columns: none;
@@ -598,34 +632,73 @@ a {
     .main-content {
         column-gap: normal;
     }
+
     .main-content .sticky {
         position: static;
     }
+
     .main-content .sidebar {
         grid-row: 1/2;
         grid-column: 1/3;
     }
+
     .main-content .content {
         grid-row: auto;
         grid-column: 1/3;
         padding: 0;
         border: none;
     }
-    .value-grid .item{
+
+    .value-grid .item {
         display: flex;
         flex-direction: row;
     }
+
     .blocks,
     .blocks.blocks--even {
         grid-template-columns: 1fr;
     }
+
     .footer .footer-row {
         grid-template-columns: 1fr 1fr;
     }
+
     .footer .scroll-top {
         justify-self: center;
     }
 }
 
+/*
+    DARK MODE
+    wird automatisch ausgewählt
+ */
+@media (prefers-color-scheme: dark) {
+    html,
+    body,
+    .header {
+        background: #000;
+        color: #fff;
+        border-bottom: #bdc3c7;
+    }
 
+    a:not(.button) {
+        color: #FCC509;
+    }
 
+    .header li a {
+        color: #fff;
+    }
+
+    .main-content .sticky {
+        background: #5a5a5a;
+    }
+
+    .main-content .sticky li:hover a,
+    .main-content .sticky a:hover {
+        color: #fff;
+    }
+
+    .footer {
+        border-top: 1px solid #FCC509;
+    }
+}

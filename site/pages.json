@@ -325,17 +325,7 @@
       "description": "Leichtathletik",
       "children": [
       ]
-    }, 
-    {
-      "name": "leitbild",
-      "destination": "leitbild",
-      "file": "leitbild/index.html",
-      "title": "Leitbild",
-      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-      "description": "Leitbild",
-      "children": [
-      ]
-    }, 
+    },
     {
       "name": "silvesterlauf",
       "destination": "silvesterlauf",

@@ -499,11 +499,23 @@ a {
     gap: 30px;
 }
 
-/**
+/*
     Großer block
     aufspannen von 1 bis 2
  */
 .blocks .block-item.block-item--big {
+    grid-column: span 2;
+}
+
+/*
+    Bildergalerie
+ */
+.blocks.blocks--gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.blocks--gallery .block-item:nth-of-type(5n) {
     grid-column: span 2;
 }
 
@@ -657,6 +669,10 @@ a {
     .blocks,
     .blocks.blocks--even {
         grid-template-columns: 1fr;
+    }
+
+    .blocks--gallery .block-item:nth-of-type(5n) {
+        grid-column: auto;
     }
 
     .footer .footer-row {

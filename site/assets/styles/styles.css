@@ -515,6 +515,9 @@ a {
 
 }
 
+/*
+    jedes 5. Bild wird größer
+ */
 .blocks--gallery .block-item:nth-of-type(5n) {
     grid-column: span 2;
 }

@@ -511,8 +511,7 @@ a {
     Bildergalerie
  */
 .blocks.blocks--gallery {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
 }
 
 /*
@@ -671,7 +670,7 @@ a {
 
     .blocks,
     .blocks.blocks--even {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .blocks--gallery .block-item:nth-of-type(5n) {

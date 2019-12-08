@@ -4,7 +4,7 @@
   "destination": "/",
   "title": "Home",
   "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-  "description": "Test",
+  "description": "Herzlich Willkommen! Es freut uns, dass Sie Interesse an Informationen der Outdoor-Abteilung im SV Mergelstetten haben!",
   "children": [
     {
       "name": "design",

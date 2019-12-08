@@ -4,7 +4,7 @@
   "destination": "/",
   "title": "Home",
   "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-  "description": "Test",
+  "description": "Herzlich Willkommen! Es freut uns, dass Sie Interesse an Informationen der Outdoor-Abteilung im SV Mergelstetten haben!",
   "children": [
     {
       "name": "design",
@@ -120,7 +120,7 @@
       "name": "bilder",
       "destination": "bilder",
       "file": "bilder/index.html",
-      "title": "Bildergallerie",
+      "title": "Bildergalerie",
       "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Bilder",
       "children": [
@@ -325,17 +325,7 @@
       "description": "Leichtathletik",
       "children": [
       ]
-    }, 
-    {
-      "name": "leitbild",
-      "destination": "leitbild",
-      "file": "leitbild/index.html",
-      "title": "Leitbild",
-      "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
-      "description": "Leitbild",
-      "children": [
-      ]
-    }, 
+    },
     {
       "name": "silvesterlauf",
       "destination": "silvesterlauf",

@@ -62,10 +62,10 @@ a {
 
 /*
     distance:
-    Klasse für oberen Abstand 100px (genutzt in Container)
+    Klasse für oberen Abstand 120px (genutzt in Container)
 */
 .distance {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 /*
@@ -499,11 +499,25 @@ a {
     gap: 30px;
 }
 
-/**
+/*
     Großer block
     aufspannen von 1 bis 2
  */
 .blocks .block-item.block-item--big {
+    grid-column: span 2;
+}
+
+/*
+    Bildergalerie
+ */
+.blocks.blocks--gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+}
+
+/*
+    jedes 5. Bild wird größer
+ */
+.blocks--gallery .block-item:nth-of-type(5n) {
     grid-column: span 2;
 }
 
@@ -656,7 +670,11 @@ a {
 
     .blocks,
     .blocks.blocks--even {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+    }
+
+    .blocks--gallery .block-item:nth-of-type(5n) {
+        grid-column: auto;
     }
 
     .footer .footer-row {

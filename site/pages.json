@@ -120,7 +120,7 @@
       "name": "bilder",
       "destination": "bilder",
       "file": "bilder/index.html",
-      "title": "Bildergallerie",
+      "title": "Bildergalerie",
       "photoUrl": "https://svm-dh.herokuapp.com/assets/images/running1.jpg",
       "description": "Bilder",
       "children": [

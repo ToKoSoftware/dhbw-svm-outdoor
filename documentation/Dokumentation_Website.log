@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  6 DEC 2019 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.19)  8 DEC 2019 12:57
 entering extended mode
 **./Dokumentation_Website.tex
 (Dokumentation_Website.tex
@@ -631,43 +631,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <20.74> not available
 
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 30.
+line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 30.
+(Font)              scaled to size 20.74pt on input line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <24.88> not available
 
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 30.
+line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 30.
+(Font)              scaled to size 24.88pt on input line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <24.88> not available
 
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 30.
+e 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 30.
+(Font)              scaled to size 24.88pt on input line 32.
 <Startseite.png, id=1, 476.982pt x 249.93375pt>
 File: Startseite.png Graphic file (type png)
 <use Startseite.png>
-Package pdftex.def Info: Startseite.png  used on input line 30.
+Package pdftex.def Info: Startseite.png  used on input line 32.
 (pdftex.def)             Requested size: 572.37552pt x 299.91899pt.
 
-Overfull \hbox (45.99953pt too wide) in paragraph at lines 30--30
+Overfull \hbox (45.99953pt too wide) in paragraph at lines 32--32
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <14.4> not available
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 30.
+line 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 30.
+(Font)              scaled to size 14.4pt on input line 32.
 
 ("C:\Users\Dominik privat\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype
 \mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 ("C:\Users\Dominik privat\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\
@@ -678,7 +678,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 \mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 ("C:\Users\Dominik privat\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\
@@ -691,9 +691,9 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <14.4> not available
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 30.
+e 32.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 30.
+(Font)              scaled to size 14.4pt on input line 32.
  [1
 
 {C:/Users/Dominik privat/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./
@@ -701,15 +701,15 @@ Startseite.png>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <17.28> not available
 
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 32.
+line 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 17.28pt on input line 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <17.28> not available
 
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
-e 32.
+e 34.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 32.
+(Font)              scaled to size 17.28pt on input line 34.
  (Dokumentation_Website.toc
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' in size <12> not available
 (Font)              Font shape `T1/Roboto-LF/bold/n' tried instead on input lin
@@ -724,10 +724,10 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
 <iphone.png, id=11, 2007.5pt x 2007.5pt>
 File: iphone.png Graphic file (type png)
 <use iphone.png>
-Package pdftex.def Info: iphone.png  used on input line 39.
+Package pdftex.def Info: iphone.png  used on input line 41.
 (pdftex.def)             Requested size: 142.26378pt x 142.25475pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
 
  []
 
@@ -735,15 +735,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--55
 <Projektablauf.png, id=17, 372.1905pt x 230.0595pt>
 File: Projektablauf.png Graphic file (type png)
 <use Projektablauf.png>
-Package pdftex.def Info: Projektablauf.png  used on input line 63.
+Package pdftex.def Info: Projektablauf.png  used on input line 65.
 (pdftex.def)             Requested size: 465.23698pt x 287.57365pt.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' in size <12> not available
 (Font)              Font shape `T1/Roboto-LF/regular/it' tried instead on input
- line 69.
+ line 71.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 69.
+(Font)              scaled to size 12.0pt on input line 71.
  [4]
-Overfull \hbox (5.26936pt too wide) in paragraph at lines 89--111
+Overfull \hbox (5.26936pt too wide) in paragraph at lines 91--113
 [][] 
  []
 
@@ -751,78 +751,78 @@ Overfull \hbox (5.26936pt too wide) in paragraph at lines 89--111
 <Skizze01.pdf, id=28, 596.2275pt x 843.15pt>
 File: Skizze01.pdf Graphic file (type pdf)
 <use Skizze01.pdf>
-Package pdftex.def Info: Skizze01.pdf  used on input line 119.
+Package pdftex.def Info: Skizze01.pdf  used on input line 121.
 (pdftex.def)             Requested size: 447.16953pt x 632.36095pt.
  [7 <./Skizze01.pdf>]
 <Skizze02.pdf, id=40, 596.2275pt x 843.15pt>
 File: Skizze02.pdf Graphic file (type pdf)
 <use Skizze02.pdf>
-Package pdftex.def Info: Skizze02.pdf  used on input line 125.
+Package pdftex.def Info: Skizze02.pdf  used on input line 127.
 (pdftex.def)             Requested size: 447.16953pt x 632.36095pt.
  [8 <./Skizze02.pdf>]
 <Home_Outdoor.jpg, id=51, 1280.785pt x 1917.1625pt>
 File: Home_Outdoor.jpg Graphic file (type jpg)
 <use Home_Outdoor.jpg>
-Package pdftex.def Info: Home_Outdoor.jpg  used on input line 132.
+Package pdftex.def Info: Home_Outdoor.jpg  used on input line 134.
 (pdftex.def)             Requested size: 199.16928pt x 298.12248pt.
 
 [9 <./Home_Outdoor.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 [10]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <8> not available
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 183.
+line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 183.
+(Font)              scaled to size 8.0pt on input line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <10> not available
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 183.
+line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 183.
+(Font)              scaled to size 10.0pt on input line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' in size <7> not available
 (Font)              Font shape `T1/Roboto-LF/regular/n' tried instead on input 
-line 183.
+line 185.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 183.
+(Font)              scaled to size 7.0pt on input line 185.
 <git.png, id=58, 1166.3575pt x 708.6475pt>
 File: git.png Graphic file (type png)
 <use git.png>
-Package pdftex.def Info: git.png  used on input line 192.
+Package pdftex.def Info: git.png  used on input line 194.
 (pdftex.def)             Requested size: 466.53474pt x 283.45398pt.
  [11] [12 <./git.png>]
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/it' in size <12> not available
 (Font)              Font shape `T1/Roboto-LF/bold/it' tried instead on input li
-ne 209.
+ne 211.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/it' will be
-(Font)              scaled to size 12.0pt on input line 209.
+(Font)              scaled to size 12.0pt on input line 211.
  [13]
 <Bewertung.png, id=71, 154.176pt x 100.57574pt>
 File: Bewertung.png Graphic file (type png)
 <use Bewertung.png>
-Package pdftex.def Info: Bewertung.png  used on input line 228.
+Package pdftex.def Info: Bewertung.png  used on input line 230.
 (pdftex.def)             Requested size: 154.1756pt x 100.57549pt.
  [14 <./Bewertung.png>] [15]
 <Kommentierung.png, id=78, 404.10976pt x 460.72125pt>
 File: Kommentierung.png Graphic file (type png)
 <use Kommentierung.png>
-Package pdftex.def Info: Kommentierung.png  used on input line 259.
+Package pdftex.def Info: Kommentierung.png  used on input line 261.
 (pdftex.def)             Requested size: 444.5221pt x 506.79494pt.
  [16 <./Kommentierung.png>]
 <Home_Desktop.jpg, id=82, 1606.0pt x 952.55875pt>
 File: Home_Desktop.jpg Graphic file (type jpg)
 <use Home_Desktop.jpg>
-Package pdftex.def Info: Home_Desktop.jpg  used on input line 267.
+Package pdftex.def Info: Home_Desktop.jpg  used on input line 269.
 (pdftex.def)             Requested size: 256.0748pt x 151.87473pt.
  [17 <./Home_Desktop.jpg>] (Dokumentation_Website.aux) ) 
 Here is how much of TeX's memory you used:
- 7606 strings out of 492450
- 119731 string characters out of 3115799
+ 7607 strings out of 492450
+ 119760 string characters out of 3115799
  217187 words of memory out of 3000000
  11668 multiletter control sequences out of 15000+200000
- 98757 words of font info for 155 fonts, out of 3000000 for 9000
+ 99187 words of font info for 156 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,58p,785b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Dominik priva
@@ -833,7 +833,7 @@ nts/type1/google/roboto/Roboto-BoldItalic.pfb><C:/Users/Dominik privat/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/google/roboto/Roboto-Italic.pfb><C:/Users
 /Dominik privat/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/google/roboto/Rob
 oto-Regular.pfb>
-Output written on Dokumentation_Website.pdf (17 pages, 3452286 bytes).
+Output written on Dokumentation_Website.pdf (17 pages, 3452357 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

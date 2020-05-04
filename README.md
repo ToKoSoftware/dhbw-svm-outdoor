@@ -1,3 +1,5 @@
+**As this project is graded & completed and this semester is over, this repository has been archived in favor of the new repository for semester 2 & 3 [TomasKostadinov/dhbw-svm-outdoor-joomla](https://github.com/TomasKostadinov/dhbw-svm-outdoor-joomla)**
+
 # DHBW SVM Outdoor Website
 DHBW Semester 1 Group Assignment
 
